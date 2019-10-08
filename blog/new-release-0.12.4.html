@@ -9,7 +9,6 @@
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <title>ChocolateyGUI - Chocolatey GUI 0.12.4</title>
-        <link href="/ChocolateyGUI/assets/css/mermaid.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
@@ -24,6 +23,7 @@
         <script src="/ChocolateyGUI/assets/js/jquery.slimscroll.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/jquery.sticky-kit.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/mermaid.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/svg-pan-zoom.min.js"></script>
         <!--[if lt IE 9]>
         <script src="/ChocolateyGUI/assets/js/html5shiv.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/respond.min.js"></script>
@@ -61,7 +61,6 @@
                                     <li><a href="/ChocolateyGUI/about">About</a></li>
         <li><a href="/ChocolateyGUI/credits">Credits</a></li>
         <li><a href="/ChocolateyGUI/docs">Docs</a></li>
-        <li><a href="/ChocolateyGUI/tasks">Tasks</a></li>
         <li class="active"><a href="/ChocolateyGUI/blog">Blog</a></li>
         <li><a href="/ChocolateyGUI/api">API</a></li>
  
@@ -88,8 +87,8 @@
                     <ul class="sidebar-menu">
                         
 
-    <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
-        <li><a href="/ChocolateyGUI/blog/Release">Release</a></li>
+        <li class="header"><i class="fa fa-bookmark"></i> Categories</li>    
+            <li><a href="/ChocolateyGUI/blog/Release">Release</a></li>
     
     <li class="header"><i class="fa fa-calendar"></i> Archive</li>    
         <li><a href="/ChocolateyGUI/blog/archive/2018/02">February, 2018</a></li>
@@ -101,8 +100,8 @@
         <li><a href="/ChocolateyGUI/blog/archive/2013/02">February, 2013</a></li>
         <li><a href="/ChocolateyGUI/blog/archive/2011/09">September, 2011</a></li>
     
-    <li class="header"><i class="fa fa-user"></i> Authors</li>    
-        <li><a href="/ChocolateyGUI/blog/author/gep13">gep13</a></li>
+        <li class="header"><i class="fa fa-user"></i> Authors</li>    
+            <li><a href="/ChocolateyGUI/blog/author/gep13">gep13</a></li>
 
                     </ul>
                             
@@ -123,12 +122,12 @@
 
 
 
-<dl class="dl-horizontal">
-    <dt><i class="fa fa-calendar"></i> Published</dt>
+<dl class="dl-horizontal" style="margin-bottom: 12px;">
+    <dt style="text-align: left;"><i class="fa fa-calendar"></i> Published</dt>
     <dd>11 March 2015</dd>
-        <dt><i class="fa fa-bookmark"></i> Category</dt>
+        <dt style="text-align: left;"><i class="fa fa-bookmark"></i> Category</dt>
         <dd><a href="/ChocolateyGUI/blog/Release">Release</a></dd>
-            <dt><i class="fa fa-user"></i> Author</dt>
+            <dt style="text-align: left;"><i class="fa fa-user"></i> Author</dt>
         <dd><a href="/ChocolateyGUI/blog/author/gep13">gep13</a></dd>
 </dl>
 
@@ -177,22 +176,53 @@
                 $(document.body).removeClass('sidebar-open');
             });
             
-            $(document).load(function() {
+            $(document).ready(function() {
                 mermaid.initialize(
                 {
                     flowchart:
                     {
-                        htmlLabels: false,
-                        useMaxWidth:false
-                    }
-                });  
-                mermaid.init(undefined, ".mermaid")
-                $('svg').addClass('img-responsive');
+                        useMaxWidth: false
+                    },
+					startOnLoad: false,
+					cloneCssStyles: false
+                });     
+                mermaid.init(undefined, ".mermaid");
+
+                // Remove the max-width setting that Mermaid sets
+                var mermaidSvg = $('.mermaid svg');
+                mermaidSvg.addClass('img-responsive');
+                mermaidSvg.css('max-width', '');
+
+                // Make it scrollable
+				var target = document.querySelector(".mermaid svg");
+				if(target !== null)
+				{
+					var panZoom = window.panZoom = svgPanZoom(target, {
+						zoomEnabled: true,
+						controlIconsEnabled: true,
+						fit: true,
+						center: true,
+                        maxZoom: 20,
+                        zoomScaleSensitivity: 0.6
+					});			                          
+
+                    // Do the reset once right away to fit the diagram
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                    
+                    $(window).resize(function(){
+                        panZoom.resize();
+                        panZoom.fit();
+                        panZoom.center();
+                    });
+				}
                 
                 $('pre code').each(function(i, block) {
                     hljs.highlightBlock(block);
                 });  
             });
+
             hljs.initHighlightingOnLoad();
 
             // Back to top

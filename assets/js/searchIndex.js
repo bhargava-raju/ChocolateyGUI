@@ -39,420 +39,420 @@ var searchModule = function() {
     a(
         {
             id:0,
-            title:"ShowSourcesMessage",
-            content:"ShowSourcesMessage",
+            title:"AutoFacConfiguration",
+            content:"AutoFacConfiguration",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/ShowSourcesMessage',
-            title:"ShowSourcesMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Startup/AutoFacConfiguration',
+            title:"AutoFacConfiguration",
             description:""
         }
     );
     a(
         {
             id:1,
-            title:"SourcesUpdatedMessage",
-            content:"SourcesUpdatedMessage",
+            title:"DataContextCommandAdapter",
+            content:"DataContextCommandAdapter",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/SourcesUpdatedMessage',
-            title:"SourcesUpdatedMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/DataContextCommandAdapter',
+            title:"DataContextCommandAdapter",
             description:""
         }
     );
     a(
         {
             id:2,
-            title:"IVersionNumberProvider",
-            content:"IVersionNumberProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers/IVersionNumberProvider',
-            title:"IVersionNumberProvider",
-            description:""
-        }
-    );
-    a(
-        {
-            id:3,
-            title:"ObservableRingBufferCollection",
-            content:"ObservableRingBufferCollection",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls/ObservableRingBufferCollection_1',
-            title:"ObservableRingBufferCollection<T>",
-            description:""
-        }
-    );
-    a(
-        {
-            id:4,
-            title:"SettingsGoBackMessage",
-            content:"SettingsGoBackMessage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/SettingsGoBackMessage',
-            title:"SettingsGoBackMessage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:5,
-            title:"BooleanToVisibility",
-            content:"BooleanToVisibility",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/BooleanToVisibility',
-            title:"BooleanToVisibility",
-            description:""
-        }
-    );
-    a(
-        {
-            id:6,
-            title:"BooleanToVisibilityInverted",
-            content:"BooleanToVisibilityInverted",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/BooleanToVisibilityInverted',
-            title:"BooleanToVisibilityInverted",
-            description:""
-        }
-    );
-    a(
-        {
-            id:7,
-            title:"SerilogLogger",
-            content:"SerilogLogger",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui/SerilogLogger',
-            title:"SerilogLogger",
-            description:""
-        }
-    );
-    a(
-        {
-            id:8,
-            title:"ResourceReader",
-            content:"ResourceReader",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/ResourceReader',
-            title:"ResourceReader",
-            description:""
-        }
-    );
-    a(
-        {
-            id:9,
-            title:"AppConfiguration",
-            content:"AppConfiguration",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/AppConfiguration',
-            title:"AppConfiguration",
-            description:""
-        }
-    );
-    a(
-        {
-            id:10,
-            title:"FauxPowerShellConsole",
-            content:"FauxPowerShellConsole",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls/FauxPowerShellConsole',
-            title:"FauxPowerShellConsole",
-            description:""
-        }
-    );
-    a(
-        {
-            id:11,
-            title:"ShowSettingsMessage",
-            content:"ShowSettingsMessage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/ShowSettingsMessage',
-            title:"ShowSettingsMessage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:12,
-            title:"NullToVisibility",
-            content:"NullToVisibility",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/NullToVisibility',
-            title:"NullToVisibility",
-            description:""
-        }
-    );
-    a(
-        {
-            id:13,
-            title:"SourcesViewModel",
-            content:"SourcesViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/SourcesViewModel',
-            title:"SourcesViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:14,
-            title:"SourcesViewModel CreateRemove",
-            content:"SourcesViewModel CreateRemove",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/CreateRemove',
-            title:"SourcesViewModel.CreateRemove",
-            description:""
-        }
-    );
-    a(
-        {
-            id:15,
-            title:"SemanticVersionTypeConverter",
-            content:"SemanticVersionTypeConverter",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/SemanticVersionTypeConverter',
-            title:"SemanticVersionTypeConverter",
-            description:""
-        }
-    );
-    a(
-        {
-            id:16,
-            title:"IMainWindowViewModel",
-            content:"IMainWindowViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Windows/IMainWindowViewModel',
-            title:"IMainWindowViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:17,
-            title:"LocalSourceViewModel",
-            content:"LocalSourceViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/LocalSourceViewModel',
-            title:"LocalSourceViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:18,
-            title:"StringListToString",
-            content:"StringListToString",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/StringListToString',
-            title:"StringListToString",
-            description:""
-        }
-    );
-    a(
-        {
-            id:19,
-            title:"RoutedCommandBinding",
-            content:"RoutedCommandBinding",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Commands/RoutedCommandBinding',
-            title:"RoutedCommandBinding",
-            description:""
-        }
-    );
-    a(
-        {
-            id:20,
-            title:"IDataGridColumnComparer",
-            content:"IDataGridColumnComparer",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/IDataGridColumnComparer',
-            title:"IDataGridColumnComparer",
-            description:""
-        }
-    );
-    a(
-        {
-            id:21,
-            title:"PackageSearchOptions",
-            content:"PackageSearchOptions",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PackageSearchOptions',
-            title:"PackageSearchOptions",
-            description:""
-        }
-    );
-    a(
-        {
-            id:22,
-            title:"LocalizedDescriptionAttribute",
-            content:"LocalizedDescriptionAttribute",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Attributes/LocalizedDescriptionAttribute',
-            title:"LocalizedDescriptionAttribute",
-            description:""
-        }
-    );
-    a(
-        {
-            id:23,
-            title:"LocalSourceView",
-            content:"LocalSourceView",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/LocalSourceView',
-            title:"LocalSourceView",
-            description:""
-        }
-    );
-    a(
-        {
-            id:24,
-            title:"SettingsView",
-            content:"SettingsView",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/SettingsView',
-            title:"SettingsView",
-            description:""
-        }
-    );
-    a(
-        {
-            id:25,
-            title:"EnumToBoolConverter",
-            content:"EnumToBoolConverter",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/EnumToBoolConverter',
-            title:"EnumToBoolConverter",
-            description:""
-        }
-    );
-    a(
-        {
-            id:26,
-            title:"ChocolateyFeature",
-            content:"ChocolateyFeature",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/ChocolateyFeature',
-            title:"ChocolateyFeature",
-            description:""
-        }
-    );
-    a(
-        {
-            id:27,
-            title:"Elevation",
-            content:"Elevation",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui/Elevation',
-            title:"Elevation",
-            description:""
-        }
-    );
-    a(
-        {
-            id:28,
             title:"Resources",
             content:"Resources",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Properties/Resources',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Properties/Resources',
             title:"Resources",
             description:""
         }
     );
     a(
         {
-            id:29,
+            id:3,
+            title:"SerilogLogger InterceptMessages",
+            content:"SerilogLogger InterceptMessages",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/InterceptMessages',
+            title:"SerilogLogger.InterceptMessages",
+            description:""
+        }
+    );
+    a(
+        {
+            id:4,
+            title:"ShellView",
+            content:"ShellView",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/ShellView',
+            title:"ShellView",
+            description:""
+        }
+    );
+    a(
+        {
+            id:5,
+            title:"SourcesUpdatedMessage",
+            content:"SourcesUpdatedMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/SourcesUpdatedMessage',
+            title:"SourcesUpdatedMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:6,
+            title:"InternetImage",
+            content:"InternetImage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls/InternetImage',
+            title:"InternetImage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:7,
+            title:"Windows PlatformProvider",
+            content:"Windows PlatformProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Providers.PlatformProvider/Windows7PlatformProvider',
+            title:"Windows7PlatformProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:8,
+            title:"ISplashScreenService",
+            content:"ISplashScreenService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/ISplashScreenService',
+            title:"ISplashScreenService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:9,
+            title:"Elevation",
+            content:"Elevation",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/Elevation',
+            title:"Elevation",
+            description:""
+        }
+    );
+    a(
+        {
+            id:10,
+            title:"PackageDependenciesToString",
+            content:"PackageDependenciesToString",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/PackageDependenciesToString',
+            title:"PackageDependenciesToString",
+            description:""
+        }
+    );
+    a(
+        {
+            id:11,
+            title:"IPlatformProvider",
+            content:"IPlatformProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Providers/IPlatformProvider',
+            title:"IPlatformProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:12,
+            title:"SplashScreenService",
+            content:"SplashScreenService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/SplashScreenService',
+            title:"SplashScreenService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:13,
+            title:"ResetScrollPositionMessage",
+            content:"ResetScrollPositionMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/ResetScrollPositionMessage',
+            title:"ResetScrollPositionMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:14,
             title:"PowerShellLineType",
             content:"PowerShellLineType",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PowerShellLineType',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PowerShellLineType',
             title:"PowerShellLineType",
+            description:""
+        }
+    );
+    a(
+        {
+            id:15,
+            title:"IFileStorageService",
+            content:"IFileStorageService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/IFileStorageService',
+            title:"IFileStorageService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:16,
+            title:"PackageViewModel",
+            content:"PackageViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel',
+            title:"PackageViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:17,
+            title:"SettingsViewModel",
+            content:"SettingsViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SettingsViewModel',
+            title:"SettingsViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:18,
+            title:"FeatureCommand",
+            content:"FeatureCommand",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/FeatureCommand',
+            title:"FeatureCommand",
+            description:""
+        }
+    );
+    a(
+        {
+            id:19,
+            title:"ProgressService",
+            content:"ProgressService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/ProgressService',
+            title:"ProgressService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:20,
+            title:"FeatureAttribute",
+            content:"FeatureAttribute",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Attributes/FeatureAttribute',
+            title:"FeatureAttribute",
+            description:""
+        }
+    );
+    a(
+        {
+            id:21,
+            title:"NullToVisibility",
+            content:"NullToVisibility",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToVisibility',
+            title:"NullToVisibility",
+            description:""
+        }
+    );
+    a(
+        {
+            id:22,
+            title:"ChocolateyGuiSetting",
+            content:"ChocolateyGuiSetting",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateyGuiSetting',
+            title:"ChocolateyGuiSetting",
+            description:""
+        }
+    );
+    a(
+        {
+            id:23,
+            title:"Bootstrapper",
+            content:"Bootstrapper",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/Bootstrapper',
+            title:"Bootstrapper",
+            description:""
+        }
+    );
+    a(
+        {
+            id:24,
+            title:"PurgeCommandType",
+            content:"PurgeCommandType",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PurgeCommandType',
+            title:"PurgeCommandType",
+            description:""
+        }
+    );
+    a(
+        {
+            id:25,
+            title:"ChocolateyConfigurationProvider",
+            content:"ChocolateyConfigurationProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Providers/ChocolateyConfigurationProvider',
+            title:"ChocolateyConfigurationProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:26,
+            title:"LocalSourceViewModel",
+            content:"LocalSourceViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel',
+            title:"LocalSourceViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:27,
+            title:"PackagesChangedEventType",
+            content:"PackagesChangedEventType",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Enums/PackagesChangedEventType',
+            title:"PackagesChangedEventType",
+            description:""
+        }
+    );
+    a(
+        {
+            id:28,
+            title:"LongSizeToFileSizeString",
+            content:"LongSizeToFileSizeString",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/LongSizeToFileSizeString',
+            title:"LongSizeToFileSizeString",
+            description:""
+        }
+    );
+    a(
+        {
+            id:29,
+            title:"ApplicationParameters",
+            content:"ApplicationParameters",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common/ApplicationParameters',
+            title:"ApplicationParameters",
             description:""
         }
     );
@@ -465,7 +465,7 @@ var searchModule = function() {
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/Package',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/Package',
             title:"Package",
             description:""
         }
@@ -473,594 +473,356 @@ var searchModule = function() {
     a(
         {
             id:31,
-            title:"IPersistenceService",
-            content:"IPersistenceService",
+            title:"SettingsGoBackMessage",
+            content:"SettingsGoBackMessage",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/IPersistenceService',
-            title:"IPersistenceService",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/SettingsGoBackMessage',
+            title:"SettingsGoBackMessage",
             description:""
         }
     );
     a(
         {
             id:32,
-            title:"PackageViewModel",
-            content:"PackageViewModel",
+            title:"BooleanToVisibility",
+            content:"BooleanToVisibility",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Items/PackageViewModel',
-            title:"PackageViewModel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/BooleanToVisibility',
+            title:"BooleanToVisibility",
             description:""
         }
     );
     a(
         {
             id:33,
-            title:"SourcesView",
-            content:"SourcesView",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/SourcesView',
-            title:"SourcesView",
-            description:""
-        }
-    );
-    a(
-        {
-            id:34,
-            title:"RemoteSourceViewModel",
-            content:"RemoteSourceViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/RemoteSourceViewModel',
-            title:"RemoteSourceViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:35,
-            title:"IPlatformProvider",
-            content:"IPlatformProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers/IPlatformProvider',
-            title:"IPlatformProvider",
-            description:""
-        }
-    );
-    a(
-        {
-            id:36,
-            title:"ISourceViewModelBase",
-            content:"ISourceViewModelBase",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/ISourceViewModelBase',
-            title:"ISourceViewModelBase",
-            description:""
-        }
-    );
-    a(
-        {
-            id:37,
-            title:"SourceViewModel",
-            content:"SourceViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Items/SourceViewModel',
-            title:"SourceViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:38,
-            title:"ProgressService",
-            content:"ProgressService",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/ProgressService',
-            title:"ProgressService",
-            description:""
-        }
-    );
-    a(
-        {
-            id:39,
-            title:"DataContextCommandAdapter",
-            content:"DataContextCommandAdapter",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Commands/DataContextCommandAdapter',
-            title:"DataContextCommandAdapter",
-            description:""
-        }
-    );
-    a(
-        {
-            id:40,
-            title:"IChocolateyService",
-            content:"IChocolateyService",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/IChocolateyService',
-            title:"IChocolateyService",
-            description:""
-        }
-    );
-    a(
-        {
-            id:41,
-            title:"PackageViewModel",
-            content:"PackageViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/PackageViewModel',
-            title:"PackageViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:42,
-            title:"PowerShellExtensions",
-            content:"PowerShellExtensions",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Extensions/PowerShellExtensions',
-            title:"PowerShellExtensions",
-            description:""
-        }
-    );
-    a(
-        {
-            id:43,
-            title:"SerilogLogger InterceptMessages",
-            content:"SerilogLogger InterceptMessages",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui/InterceptMessages',
-            title:"SerilogLogger.InterceptMessages",
-            description:""
-        }
-    );
-    a(
-        {
-            id:44,
-            title:"Internationalization",
-            content:"Internationalization",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Startup/Internationalization',
-            title:"Internationalization",
-            description:""
-        }
-    );
-    a(
-        {
-            id:45,
-            title:"ChocolateyGUISetting",
-            content:"ChocolateyGUISetting",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/ChocolateyGUISetting',
-            title:"ChocolateyGUISetting",
-            description:""
-        }
-    );
-    a(
-        {
-            id:46,
-            title:"PackageChangedMessage",
-            content:"PackageChangedMessage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/PackageChangedMessage',
-            title:"PackageChangedMessage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:47,
             title:"NullToValue",
             content:"NullToValue",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/NullToValue',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToValue',
             title:"NullToValue",
             description:""
         }
     );
     a(
         {
-            id:48,
-            title:"InternetImage",
-            content:"InternetImage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls/InternetImage',
-            title:"InternetImage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:49,
-            title:"LongSizeToFileSizeString",
-            content:"LongSizeToFileSizeString",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/LongSizeToFileSizeString',
-            title:"LongSizeToFileSizeString",
-            description:""
-        }
-    );
-    a(
-        {
-            id:50,
-            title:"ChocolateyDialogController",
-            content:"ChocolateyDialogController",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls.Dialogs/ChocolateyDialogController',
-            title:"ChocolateyDialogController",
-            description:""
-        }
-    );
-    a(
-        {
-            id:51,
-            title:"PackageSearchResults",
-            content:"PackageSearchResults",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PackageSearchResults',
-            title:"PackageSearchResults",
-            description:""
-        }
-    );
-    a(
-        {
-            id:52,
-            title:"BooleanToVisibilityHidden",
-            content:"BooleanToVisibilityHidden",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/BooleanToVisibilityHidden',
-            title:"BooleanToVisibilityHidden",
-            description:""
-        }
-    );
-    a(
-        {
-            id:53,
-            title:"ShowAboutMessage",
-            content:"ShowAboutMessage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/ShowAboutMessage',
-            title:"ShowAboutMessage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:54,
+            id:34,
             title:"PackageOperationResult",
             content:"PackageOperationResult",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PackageOperationResult',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PackageOperationResult',
             title:"PackageOperationResult",
             description:""
         }
     );
     a(
         {
-            id:55,
+            id:35,
+            title:"LogMessage",
+            content:"LogMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/LogMessage',
+            title:"LogMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:36,
             title:"ConnectionClosedException",
             content:"ConnectionClosedException",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Base/ConnectionClosedException',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Base/ConnectionClosedException',
             title:"ConnectionClosedException",
             description:""
         }
     );
     a(
         {
-            id:56,
-            title:"ShellView",
-            content:"ShellView",
+            id:37,
+            title:"PackageTitleConverter",
+            content:"PackageTitleConverter",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/ShellView',
-            title:"ShellView",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/PackageTitleConverter',
+            title:"PackageTitleConverter",
             description:""
         }
     );
     a(
         {
-            id:57,
-            title:"DataContext",
-            content:"DataContext",
+            id:38,
+            title:"PurgeCommand",
+            content:"PurgeCommand",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/DataContext',
-            title:"DataContext",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/PurgeCommand',
+            title:"PurgeCommand",
             description:""
         }
     );
     a(
         {
-            id:58,
-            title:"ChocolateyExtensions",
-            content:"ChocolateyExtensions",
+            id:39,
+            title:"FeatureCommandType",
+            content:"FeatureCommandType",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui/ChocolateyExtensions',
-            title:"ChocolateyExtensions",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/FeatureCommandType',
+            title:"FeatureCommandType",
             description:""
         }
     );
     a(
         {
-            id:59,
-            title:"SourceTabViewModel",
-            content:"SourceTabViewModel",
+            id:40,
+            title:"FauxPowerShellConsole",
+            content:"FauxPowerShellConsole",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Items/SourceTabViewModel',
-            title:"SourceTabViewModel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls/FauxPowerShellConsole',
+            title:"FauxPowerShellConsole",
             description:""
         }
     );
     a(
         {
-            id:60,
-            title:"ListViewMode",
-            content:"ListViewMode",
+            id:41,
+            title:"RemoteSourceView",
+            content:"RemoteSourceView",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Enums/ListViewMode',
-            title:"ListViewMode",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/RemoteSourceView',
+            title:"RemoteSourceView",
             description:""
         }
     );
     a(
         {
-            id:61,
-            title:"PackageHasUpdateMessage",
-            content:"PackageHasUpdateMessage",
+            id:42,
+            title:"ShowSourcesMessage",
+            content:"ShowSourcesMessage",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/PackageHasUpdateMessage',
-            title:"PackageHasUpdateMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/ShowSourcesMessage',
+            title:"ShowSourcesMessage",
             description:""
         }
     );
     a(
         {
-            id:62,
-            title:"MarkdownEx",
-            content:"MarkdownEx",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls/MarkdownEx',
-            title:"MarkdownEx",
-            description:""
-        }
-    );
-    a(
-        {
-            id:63,
-            title:"CommandExecutionManager",
-            content:"CommandExecutionManager",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Commands/CommandExecutionManager',
-            title:"CommandExecutionManager",
-            description:""
-        }
-    );
-    a(
-        {
-            id:64,
-            title:"ShellViewModel",
-            content:"ShellViewModel",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/ShellViewModel',
-            title:"ShellViewModel",
-            description:""
-        }
-    );
-    a(
-        {
-            id:65,
-            title:"PackagesChangedEventType",
-            content:"PackagesChangedEventType",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Enums/PackagesChangedEventType',
-            title:"PackagesChangedEventType",
-            description:""
-        }
-    );
-    a(
-        {
-            id:66,
-            title:"Hacks",
-            content:"Hacks",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui/Hacks',
-            title:"Hacks",
-            description:""
-        }
-    );
-    a(
-        {
-            id:67,
+            id:43,
             title:"IPackageViewModel",
             content:"IPackageViewModel",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Items/IPackageViewModel',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.ViewModels.Items/IPackageViewModel',
             title:"IPackageViewModel",
             description:""
         }
     );
     a(
         {
-            id:68,
-            title:"LogLevel",
-            content:"LogLevel",
+            id:44,
+            title:"Hacks",
+            content:"Hacks",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/LogLevel',
-            title:"LogLevel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common/Hacks',
+            title:"Hacks",
             description:""
         }
     );
     a(
         {
-            id:69,
-            title:"ChocolateyDialog",
-            content:"ChocolateyDialog",
+            id:45,
+            title:"MvvmExtensions",
+            content:"MvvmExtensions",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls.Dialogs/ChocolateyDialog',
-            title:"ChocolateyDialog",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Extensions/MvvmExtensions',
+            title:"MvvmExtensions",
             description:""
         }
     );
     a(
         {
-            id:70,
-            title:"ObservableBase",
-            content:"ObservableBase",
+            id:46,
+            title:"AboutView",
+            content:"AboutView",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Base/ObservableBase',
-            title:"ObservableBase",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/AboutView',
+            title:"AboutView",
             description:""
         }
     );
     a(
         {
-            id:71,
-            title:"DataContextCommandBinding",
-            content:"DataContextCommandBinding",
+            id:47,
+            title:"ResourceReader",
+            content:"ResourceReader",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Commands/DataContextCommandBinding',
-            title:"DataContextCommandBinding",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/ResourceReader',
+            title:"ResourceReader",
             description:""
         }
     );
     a(
         {
-            id:72,
-            title:"PackageChangeType",
-            content:"PackageChangeType",
+            id:48,
+            title:"ConfigCommandConfiguration",
+            content:"ConfigCommandConfiguration",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/PackageChangeType',
-            title:"PackageChangeType",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ConfigCommandConfiguration',
+            title:"ConfigCommandConfiguration",
             description:""
         }
     );
     a(
         {
-            id:73,
+            id:49,
+            title:"VersionNumberProvider",
+            content:"VersionNumberProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Providers/VersionNumberProvider',
+            title:"VersionNumberProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:50,
+            title:"ShowPackageDetailsMessage",
+            content:"ShowPackageDetailsMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/ShowPackageDetailsMessage',
+            title:"ShowPackageDetailsMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:51,
+            title:"PackageViewModel",
+            content:"PackageViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/PackageViewModel',
+            title:"PackageViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:52,
+            title:"PackageSearchOptions",
+            content:"PackageSearchOptions",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PackageSearchOptions',
+            title:"PackageSearchOptions",
+            description:""
+        }
+    );
+    a(
+        {
+            id:53,
+            title:"BooleanToVisibilityHidden",
+            content:"BooleanToVisibilityHidden",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/BooleanToVisibilityHidden',
+            title:"BooleanToVisibilityHidden",
+            description:""
+        }
+    );
+    a(
+        {
+            id:54,
+            title:"ListViewMode",
+            content:"ListViewMode",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Enums/ListViewMode',
+            title:"ListViewMode",
+            description:""
+        }
+    );
+    a(
+        {
+            id:55,
+            title:"SourceSeparatorViewModel",
+            content:"SourceSeparatorViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourceSeparatorViewModel',
+            title:"SourceSeparatorViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:56,
             title:"ElevationStatusProvider",
             content:"ElevationStatusProvider",
             description:'',
@@ -1074,357 +836,553 @@ var searchModule = function() {
     );
     a(
         {
-            id:74,
-            title:"AboutViewModel",
-            content:"AboutViewModel",
+            id:57,
+            title:"PackageChangeType",
+            content:"PackageChangeType",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/AboutViewModel',
-            title:"AboutViewModel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/PackageChangeType',
+            title:"PackageChangeType",
             description:""
         }
     );
     a(
         {
-            id:75,
-            title:"PackageView",
-            content:"PackageView",
+            id:58,
+            title:"ShowAboutMessage",
+            content:"ShowAboutMessage",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/PackageView',
-            title:"PackageView",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/ShowAboutMessage',
+            title:"ShowAboutMessage",
             description:""
         }
     );
     a(
         {
-            id:76,
-            title:"DefaultsExtensions",
-            content:"DefaultsExtensions",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/DefaultsExtensions',
-            title:"DefaultsExtensions",
-            description:""
-        }
-    );
-    a(
-        {
-            id:77,
+            id:59,
             title:"ConfigService",
             content:"ConfigService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/ConfigService',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/ConfigService',
             title:"ConfigService",
             description:""
         }
     );
     a(
         {
-            id:78,
-            title:"BooleanInverter",
-            content:"BooleanInverter",
+            id:60,
+            title:"ShowSettingsMessage",
+            content:"ShowSettingsMessage",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/BooleanInverter',
-            title:"BooleanInverter",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/ShowSettingsMessage',
+            title:"ShowSettingsMessage",
             description:""
         }
     );
     a(
         {
-            id:79,
-            title:"Bootstrapper",
-            content:"Bootstrapper",
+            id:61,
+            title:"NativeMethods",
+            content:"NativeMethods",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui/Bootstrapper',
-            title:"Bootstrapper",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/NativeMethods',
+            title:"NativeMethods",
             description:""
         }
     );
     a(
         {
-            id:80,
-            title:"SettingsViewModel",
-            content:"SettingsViewModel",
+            id:62,
+            title:"ObservableRingBufferCollection",
+            content:"ObservableRingBufferCollection",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels/SettingsViewModel',
-            title:"SettingsViewModel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Controls/ObservableRingBufferCollection_1',
+            title:"ObservableRingBufferCollection<T>",
             description:""
         }
     );
     a(
         {
-            id:81,
-            title:"IConfigService",
-            content:"IConfigService",
+            id:63,
+            title:"NativeMethods SHSTOCKICONINFO",
+            content:"NativeMethods SHSTOCKICONINFO",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/IConfigService',
-            title:"IConfigService",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/SHSTOCKICONINFO',
+            title:"NativeMethods.SHSTOCKICONINFO",
             description:""
         }
     );
     a(
         {
-            id:82,
-            title:"PersistenceService",
-            content:"PersistenceService",
+            id:64,
+            title:"PackageView",
+            content:"PackageView",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/PersistenceService',
-            title:"PersistenceService",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/PackageView',
+            title:"PackageView",
             description:""
         }
     );
     a(
         {
-            id:83,
-            title:"ShowPackageDetailsMessage",
-            content:"ShowPackageDetailsMessage",
+            id:65,
+            title:"InformationCommandConfiguration",
+            content:"InformationCommandConfiguration",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/ShowPackageDetailsMessage',
-            title:"ShowPackageDetailsMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/InformationCommandConfiguration',
+            title:"InformationCommandConfiguration",
             description:""
         }
     );
     a(
         {
-            id:84,
-            title:"BindingProxy",
-            content:"BindingProxy",
+            id:66,
+            title:"CommandExecutionManager",
+            content:"CommandExecutionManager",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/BindingProxy',
-            title:"BindingProxy",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/CommandExecutionManager',
+            title:"CommandExecutionManager",
             description:""
         }
     );
     a(
         {
-            id:85,
-            title:"PackageAuthorsComparer",
-            content:"PackageAuthorsComparer",
+            id:67,
+            title:"Internationalization",
+            content:"Internationalization",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/PackageAuthorsComparer',
-            title:"PackageAuthorsComparer",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Startup/Internationalization',
+            title:"Internationalization",
             description:""
         }
     );
     a(
         {
-            id:86,
-            title:"ChocolateySource",
-            content:"ChocolateySource",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/ChocolateySource',
-            title:"ChocolateySource",
-            description:""
-        }
-    );
-    a(
-        {
-            id:87,
-            title:"ChocolateyDialogController DialogCanceledEventHandler",
-            content:"ChocolateyDialogController DialogCanceledEventHandler",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Controls.Dialogs/DialogCanceledEventHandler',
-            title:"ChocolateyDialogController.DialogCanceledEventHandler",
-            description:""
-        }
-    );
-    a(
-        {
-            id:88,
-            title:"IChocolateyConfigurationProvider",
-            content:"IChocolateyConfigurationProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers/IChocolateyConfigurationProvider',
-            title:"IChocolateyConfigurationProvider",
-            description:""
-        }
-    );
-    a(
-        {
-            id:89,
-            title:"PackageDependenciesToString",
-            content:"PackageDependenciesToString",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/PackageDependenciesToString',
-            title:"PackageDependenciesToString",
-            description:""
-        }
-    );
-    a(
-        {
-            id:90,
-            title:"Windows PlatformProvider",
-            content:"Windows PlatformProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers.PlatformProvider/Windows7PlatformProvider',
-            title:"Windows7PlatformProvider",
-            description:""
-        }
-    );
-    a(
-        {
-            id:91,
+            id:68,
             title:"PowerShellOutputLine",
             content:"PowerShellOutputLine",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PowerShellOutputLine',
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PowerShellOutputLine',
             title:"PowerShellOutputLine",
             description:""
         }
     );
     a(
         {
-            id:92,
-            title:"ChocolateyConfigurationProvider",
-            content:"ChocolateyConfigurationProvider",
+            id:69,
+            title:"ChocolateyFeature",
+            content:"ChocolateyFeature",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers/ChocolateyConfigurationProvider',
-            title:"ChocolateyConfigurationProvider",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateyFeature',
+            title:"ChocolateyFeature",
+            description:""
+        }
+    );
+    a(
+        {
+            id:70,
+            title:"MultiBooleanAndToVisibility",
+            content:"MultiBooleanAndToVisibility",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/MultiBooleanAndToVisibility',
+            title:"MultiBooleanAndToVisibility",
+            description:""
+        }
+    );
+    a(
+        {
+            id:71,
+            title:"ConfigCommandType",
+            content:"ConfigCommandType",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ConfigCommandType',
+            title:"ConfigCommandType",
+            description:""
+        }
+    );
+    a(
+        {
+            id:72,
+            title:"SourceViewModel",
+            content:"SourceViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/SourceViewModel',
+            title:"SourceViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:73,
+            title:"PackageSearchResults",
+            content:"PackageSearchResults",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PackageSearchResults',
+            title:"PackageSearchResults",
+            description:""
+        }
+    );
+    a(
+        {
+            id:74,
+            title:"ChocolateySetting",
+            content:"ChocolateySetting",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateySetting',
+            title:"ChocolateySetting",
+            description:""
+        }
+    );
+    a(
+        {
+            id:75,
+            title:"LogLevel",
+            content:"LogLevel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/LogLevel',
+            title:"LogLevel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:76,
+            title:"ColouredConsoleSink",
+            content:"ColouredConsoleSink",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common/ColouredConsoleSink',
+            title:"ColouredConsoleSink",
+            description:""
+        }
+    );
+    a(
+        {
+            id:77,
+            title:"LocalizedCommandForAttribute",
+            content:"LocalizedCommandForAttribute",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Attributes/LocalizedCommandForAttribute',
+            title:"LocalizedCommandForAttribute",
+            description:""
+        }
+    );
+    a(
+        {
+            id:78,
+            title:"IChocolateyConfigurationProvider",
+            content:"IChocolateyConfigurationProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Providers/IChocolateyConfigurationProvider',
+            title:"IChocolateyConfigurationProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:79,
+            title:"Program",
+            content:"Program",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGuiCli/Program',
+            title:"Program",
+            description:""
+        }
+    );
+    a(
+        {
+            id:80,
+            title:"BooleanToVisibilityInverted",
+            content:"BooleanToVisibilityInverted",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/BooleanToVisibilityInverted',
+            title:"BooleanToVisibilityInverted",
+            description:""
+        }
+    );
+    a(
+        {
+            id:81,
+            title:"ChocolateyDialogController DialogCanceledEventHandler",
+            content:"ChocolateyDialogController DialogCanceledEventHandler",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls.Dialogs/DialogCanceledEventHandler',
+            title:"ChocolateyDialogController.DialogCanceledEventHandler",
+            description:""
+        }
+    );
+    a(
+        {
+            id:82,
+            title:"ChocolateyAggregatedSources",
+            content:"ChocolateyAggregatedSources",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateyAggregatedSources',
+            title:"ChocolateyAggregatedSources",
+            description:""
+        }
+    );
+    a(
+        {
+            id:83,
+            title:"FeatureCommandConfiguration",
+            content:"FeatureCommandConfiguration",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/FeatureCommandConfiguration',
+            title:"FeatureCommandConfiguration",
+            description:""
+        }
+    );
+    a(
+        {
+            id:84,
+            title:"BubbleScrollEventBehavior",
+            content:"BubbleScrollEventBehavior",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/BubbleScrollEventBehavior',
+            title:"BubbleScrollEventBehavior",
+            description:""
+        }
+    );
+    a(
+        {
+            id:85,
+            title:"ICommand",
+            content:"ICommand",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/ICommand',
+            title:"ICommand",
+            description:""
+        }
+    );
+    a(
+        {
+            id:86,
+            title:"AppConfiguration",
+            content:"AppConfiguration",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/AppConfiguration',
+            title:"AppConfiguration",
+            description:""
+        }
+    );
+    a(
+        {
+            id:87,
+            title:"EnumToBoolConverter",
+            content:"EnumToBoolConverter",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/EnumToBoolConverter',
+            title:"EnumToBoolConverter",
+            description:""
+        }
+    );
+    a(
+        {
+            id:88,
+            title:"BooleanInverter",
+            content:"BooleanInverter",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/BooleanInverter',
+            title:"BooleanInverter",
+            description:""
+        }
+    );
+    a(
+        {
+            id:89,
+            title:"SemanticVersionTypeConverter",
+            content:"SemanticVersionTypeConverter",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/SemanticVersionTypeConverter',
+            title:"SemanticVersionTypeConverter",
+            description:""
+        }
+    );
+    a(
+        {
+            id:90,
+            title:"AboutViewModel",
+            content:"AboutViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel',
+            title:"AboutViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:91,
+            title:"ChocolateyExtensions",
+            content:"ChocolateyExtensions",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common/ChocolateyExtensions',
+            title:"ChocolateyExtensions",
+            description:""
+        }
+    );
+    a(
+        {
+            id:92,
+            title:"LocalSourceView",
+            content:"LocalSourceView",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/LocalSourceView',
+            title:"LocalSourceView",
             description:""
         }
     );
     a(
         {
             id:93,
-            title:"AboutGoBackMessage",
-            content:"AboutGoBackMessage",
+            title:"PersistenceService",
+            content:"PersistenceService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/AboutGoBackMessage',
-            title:"AboutGoBackMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/PersistenceService',
+            title:"PersistenceService",
             description:""
         }
     );
     a(
         {
             id:94,
-            title:"BooleanToTickString",
-            content:"BooleanToTickString",
+            title:"IChocolateyGuiCacheService",
+            content:"IChocolateyGuiCacheService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities.Converters/BooleanToTickString',
-            title:"BooleanToTickString",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyGuiCacheService',
+            title:"IChocolateyGuiCacheService",
             description:""
         }
     );
     a(
         {
             id:95,
-            title:"PackageResults",
-            content:"PackageResults",
+            title:"ImageService",
+            content:"ImageService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/PackageResults',
-            title:"PackageResults",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/ImageService',
+            title:"ImageService",
             description:""
         }
     );
     a(
         {
             id:96,
-            title:"VersionNumberProvider",
-            content:"VersionNumberProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Providers/VersionNumberProvider',
-            title:"VersionNumberProvider",
-            description:""
-        }
-    );
-    a(
-        {
-            id:97,
-            title:"DataGridCustomSortBehavior",
-            content:"DataGridCustomSortBehavior",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Utilities/DataGridCustomSortBehavior',
-            title:"DataGridCustomSortBehavior",
-            description:""
-        }
-    );
-    a(
-        {
-            id:98,
-            title:"LogMessage",
-            content:"LogMessage",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/LogMessage',
-            title:"LogMessage",
-            description:""
-        }
-    );
-    a(
-        {
-            id:99,
             title:"App",
             content:"App",
             description:'',
@@ -1438,99 +1396,687 @@ var searchModule = function() {
     );
     a(
         {
-            id:100,
-            title:"ResetScrollPositionMessage",
-            content:"ResetScrollPositionMessage",
+            id:97,
+            title:"DataGridCustomSortBehavior",
+            content:"DataGridCustomSortBehavior",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models.Messages/ResetScrollPositionMessage',
-            title:"ResetScrollPositionMessage",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/DataGridCustomSortBehavior',
+            title:"DataGridCustomSortBehavior",
+            description:""
+        }
+    );
+    a(
+        {
+            id:98,
+            title:"PackageHasUpdateMessage",
+            content:"PackageHasUpdateMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/PackageHasUpdateMessage',
+            title:"PackageHasUpdateMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:99,
+            title:"ChocolateyGuiFeature",
+            content:"ChocolateyGuiFeature",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateyGuiFeature',
+            title:"ChocolateyGuiFeature",
+            description:""
+        }
+    );
+    a(
+        {
+            id:100,
+            title:"ISourceViewModelBase",
+            content:"ISourceViewModelBase",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.ViewModels/ISourceViewModelBase',
+            title:"ISourceViewModelBase",
             description:""
         }
     );
     a(
         {
             id:101,
-            title:"RemoteSourceView",
-            content:"RemoteSourceView",
+            title:"IImageService",
+            content:"IImageService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/RemoteSourceView',
-            title:"RemoteSourceView",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/IImageService',
+            title:"IImageService",
             description:""
         }
     );
     a(
         {
             id:102,
-            title:"ChocolateySetting",
-            content:"ChocolateySetting",
+            title:"PackageResults",
+            content:"PackageResults",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Models/ChocolateySetting',
-            title:"ChocolateySetting",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PackageResults',
+            title:"PackageResults",
             description:""
         }
     );
     a(
         {
             id:103,
-            title:"IProgressService",
-            content:"IProgressService",
+            title:"ConfigAttribute",
+            content:"ConfigAttribute",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Services/IProgressService',
-            title:"IProgressService",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Attributes/ConfigAttribute',
+            title:"ConfigAttribute",
             description:""
         }
     );
     a(
         {
             id:104,
-            title:"MainWindowViewModel",
-            content:"MainWindowViewModel",
+            title:"StringListToString",
+            content:"StringListToString",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.ViewModels.Windows/MainWindowViewModel',
-            title:"MainWindowViewModel",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/StringListToString',
+            title:"StringListToString",
             description:""
         }
     );
     a(
         {
             id:105,
-            title:"AutoFacConfiguration",
-            content:"AutoFacConfiguration",
+            title:"PurgeCommandConfiguration",
+            content:"PurgeCommandConfiguration",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Startup/AutoFacConfiguration',
-            title:"AutoFacConfiguration",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/PurgeCommandConfiguration',
+            title:"PurgeCommandConfiguration",
             description:""
         }
     );
     a(
         {
             id:106,
-            title:"AboutView",
-            content:"AboutView",
+            title:"LiteDBFileStorageService",
+            content:"LiteDBFileStorageService",
             description:'',
             tags:''
         },
         {
-            url:'/ChocolateyGUI/api/ChocolateyGui.Views/AboutView',
-            title:"AboutView",
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/LiteDBFileStorageService',
+            title:"LiteDBFileStorageService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:107,
+            title:"MarkdownEx",
+            content:"MarkdownEx",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls/MarkdownEx',
+            title:"MarkdownEx",
+            description:""
+        }
+    );
+    a(
+        {
+            id:108,
+            title:"ObservableBase",
+            content:"ObservableBase",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Base/ObservableBase',
+            title:"ObservableBase",
+            description:""
+        }
+    );
+    a(
+        {
+            id:109,
+            title:"BooleanToTickString",
+            content:"BooleanToTickString",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/BooleanToTickString',
+            title:"BooleanToTickString",
+            description:""
+        }
+    );
+    a(
+        {
+            id:110,
+            title:"ShellViewModel",
+            content:"ShellViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/ShellViewModel',
+            title:"ShellViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:111,
+            title:"BaseCommand",
+            content:"BaseCommand",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/BaseCommand',
+            title:"BaseCommand",
+            description:""
+        }
+    );
+    a(
+        {
+            id:112,
+            title:"SourcesListBoxItemStyleSelector",
+            content:"SourcesListBoxItemStyleSelector",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesListBoxItemStyleSelector',
+            title:"SourcesListBoxItemStyleSelector",
+            description:""
+        }
+    );
+    a(
+        {
+            id:113,
+            title:"SettingsView",
+            content:"SettingsView",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/SettingsView',
+            title:"SettingsView",
+            description:""
+        }
+    );
+    a(
+        {
+            id:114,
+            title:"SerilogLogger",
+            content:"SerilogLogger",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows/SerilogLogger',
+            title:"SerilogLogger",
+            description:""
+        }
+    );
+    a(
+        {
+            id:115,
+            title:"ChocolateyDialogController",
+            content:"ChocolateyDialogController",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls.Dialogs/ChocolateyDialogController',
+            title:"ChocolateyDialogController",
+            description:""
+        }
+    );
+    a(
+        {
+            id:116,
+            title:"IDataGridColumnComparer",
+            content:"IDataGridColumnComparer",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/IDataGridColumnComparer',
+            title:"IDataGridColumnComparer",
+            description:""
+        }
+    );
+    a(
+        {
+            id:117,
+            title:"IPersistenceService",
+            content:"IPersistenceService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/IPersistenceService',
+            title:"IPersistenceService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:118,
+            title:"AboutGoBackMessage",
+            content:"AboutGoBackMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/AboutGoBackMessage',
+            title:"AboutGoBackMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:119,
+            title:"LocalizedDescriptionAttribute",
+            content:"LocalizedDescriptionAttribute",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Attributes/LocalizedDescriptionAttribute',
+            title:"LocalizedDescriptionAttribute",
+            description:""
+        }
+    );
+    a(
+        {
+            id:120,
+            title:"DataContextCommandBinding",
+            content:"DataContextCommandBinding",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/DataContextCommandBinding',
+            title:"DataContextCommandBinding",
+            description:""
+        }
+    );
+    a(
+        {
+            id:121,
+            title:"IProgressService",
+            content:"IProgressService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/IProgressService',
+            title:"IProgressService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:122,
+            title:"OutdatedPackage",
+            content:"OutdatedPackage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/OutdatedPackage',
+            title:"OutdatedPackage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:123,
+            title:"DataContext",
+            content:"DataContext",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/DataContext',
+            title:"DataContext",
+            description:""
+        }
+    );
+    a(
+        {
+            id:124,
+            title:"SourcesViewModel CreateRemove",
+            content:"SourcesViewModel CreateRemove",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/CreateRemove',
+            title:"SourcesViewModel.CreateRemove",
+            description:""
+        }
+    );
+    a(
+        {
+            id:125,
+            title:"DefaultsExtensions",
+            content:"DefaultsExtensions",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Utilities/DefaultsExtensions',
+            title:"DefaultsExtensions",
+            description:""
+        }
+    );
+    a(
+        {
+            id:126,
+            title:"ConfigCommand",
+            content:"ConfigCommand",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/ConfigCommand',
+            title:"ConfigCommand",
+            description:""
+        }
+    );
+    a(
+        {
+            id:127,
+            title:"Bootstrapper",
+            content:"Bootstrapper",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGuiCli/Bootstrapper',
+            title:"Bootstrapper",
+            description:""
+        }
+    );
+    a(
+        {
+            id:128,
+            title:"GenericRunner",
+            content:"GenericRunner",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Commands/GenericRunner',
+            title:"GenericRunner",
+            description:""
+        }
+    );
+    a(
+        {
+            id:129,
+            title:"FeatureModifiedMessage",
+            content:"FeatureModifiedMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/FeatureModifiedMessage',
+            title:"FeatureModifiedMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:130,
+            title:"RoutedCommandBinding",
+            content:"RoutedCommandBinding",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RoutedCommandBinding',
+            title:"RoutedCommandBinding",
+            description:""
+        }
+    );
+    a(
+        {
+            id:131,
+            title:"ChocolateyService",
+            content:"ChocolateyService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/ChocolateyService',
+            title:"ChocolateyService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:132,
+            title:"PackageAuthorsComparer",
+            content:"PackageAuthorsComparer",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/PackageAuthorsComparer',
+            title:"PackageAuthorsComparer",
+            description:""
+        }
+    );
+    a(
+        {
+            id:133,
+            title:"SourcesView",
+            content:"SourcesView",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Views/SourcesView',
+            title:"SourcesView",
+            description:""
+        }
+    );
+    a(
+        {
+            id:134,
+            title:"PackageChangedMessage",
+            content:"PackageChangedMessage",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/PackageChangedMessage',
+            title:"PackageChangedMessage",
+            description:""
+        }
+    );
+    a(
+        {
+            id:135,
+            title:"LogSetup",
+            content:"LogSetup",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Utilities/LogSetup',
+            title:"LogSetup",
+            description:""
+        }
+    );
+    a(
+        {
+            id:136,
+            title:"ChocolateyDialog",
+            content:"ChocolateyDialog",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Controls.Dialogs/ChocolateyDialog',
+            title:"ChocolateyDialog",
+            description:""
+        }
+    );
+    a(
+        {
+            id:137,
+            title:"ChocolateySource",
+            content:"ChocolateySource",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateySource',
+            title:"ChocolateySource",
+            description:""
+        }
+    );
+    a(
+        {
+            id:138,
+            title:"IConfigService",
+            content:"IConfigService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/IConfigService',
+            title:"IConfigService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:139,
+            title:"IChocolateyService",
+            content:"IChocolateyService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService',
+            title:"IChocolateyService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:140,
+            title:"ChocolateyGuiConfiguration",
+            content:"ChocolateyGuiConfiguration",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Models/ChocolateyGuiConfiguration',
+            title:"ChocolateyGuiConfiguration",
+            description:""
+        }
+    );
+    a(
+        {
+            id:141,
+            title:"RemoteSourceViewModel",
+            content:"RemoteSourceViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/RemoteSourceViewModel',
+            title:"RemoteSourceViewModel",
+            description:""
+        }
+    );
+    a(
+        {
+            id:142,
+            title:"IVersionNumberProvider",
+            content:"IVersionNumberProvider",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Providers/IVersionNumberProvider',
+            title:"IVersionNumberProvider",
+            description:""
+        }
+    );
+    a(
+        {
+            id:143,
+            title:"BindingProxy",
+            content:"BindingProxy",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities/BindingProxy',
+            title:"BindingProxy",
+            description:""
+        }
+    );
+    a(
+        {
+            id:144,
+            title:"ChocolateyGuiCacheService",
+            content:"ChocolateyGuiCacheService",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Services/ChocolateyGuiCacheService',
+            title:"ChocolateyGuiCacheService",
+            description:""
+        }
+    );
+    a(
+        {
+            id:145,
+            title:"SourcesViewModel",
+            content:"SourcesViewModel",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel',
+            title:"SourcesViewModel",
             description:""
         }
     );
