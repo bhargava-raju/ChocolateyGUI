@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>ChocolateyGUI - API - SourcesViewModel.SourcesViewModel(IChocolateyService, IConfigService, IImageService, IEventAggregator, Func&lt;string, LocalSourceViewModel&gt;, SourcesViewModel.CreateRemove) Constructor</title>
+        <title>ChocolateyGUI - API - RelayCommand Class</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -75,8 +75,9 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
 	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
-<p><a href="#Parameters">Parameters</a></p>
-<p><a href="#ReturnValue">Return Value</a></p>
+<p><a href="#Constructors">Constructors</a></p>
+<p><a href="#Events">Events</a></p>
+<p><a href="#Methods">Methods</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -136,21 +137,14 @@
                     <ul class="sidebar-menu">
                         
 			<li class="header">Namespace</li>
-		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></li>
-		<li class="header">Type</li>
-		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a></li>
+		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.Commands</a></li>
 		<li role="separator" class="divider"></li>
-			<li class="header">Constructors</li>
-				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/B1C08160">SourcesViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IConfigService, <wbr>IImageService, <wbr>IEventAggregator, <wbr>Func<wbr>&lt;string, <wbr>Local<wbr>Source<wbr>View<wbr>Model&gt;<wbr>, <wbr>SourcesViewModel<wbr>.CreateRemove)<wbr></a></li>
-			<li class="header">NamedType Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/CreateRemove">SourcesViewModel<wbr>.CreateRemove</a></li>
-			<li class="header">Property Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/40868B9A">Primary<wbr>Application<wbr>Image<wbr>Source</a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/5F99EEE7">Secondary<wbr>Application<wbr>Image<wbr>Source</a></li>
-			<li class="header">Method Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/0A0BA80C">Handle<wbr>(<wbr>Sources<wbr>Updated<wbr>Message)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/32D55FCA">LoadSources<wbr>()<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/94DE26B3">OnViewReady<wbr>(object)<wbr></a></li>
+			<li class="header">Class Types</li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/CommandExecutionManager">Command<wbr>Execution<wbr>Manager</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/DataContextCommandAdapter">Data<wbr>Context<wbr>Command<wbr>Adapter</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/DataContextCommandBinding">Data<wbr>Context<wbr>Command<wbr>Binding</a></li>
+				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand">RelayCommand</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RoutedCommandBinding">RoutedCommandBinding</a></li>
 
 
                     </ul>
@@ -165,96 +159,136 @@
 
 
 <section class="content-header">
-			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a>.</h3>
-	<h1>SourcesViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IConfigService, <wbr>IImageService, <wbr>IEventAggregator, <wbr>Func<wbr>&lt;string, <wbr>Local<wbr>Source<wbr>View<wbr>Model&gt;<wbr>, <wbr>SourcesViewModel<wbr>.CreateRemove)<wbr> <small>Constructor</small></h1>
+	<h1>RelayCommand <small>Class</small></h1>
 </section>
 <section class="content">
 	
 	
 	
 		<div class="panel panel-default">
-  			<div class="panel-body">	
-				<dl class="dl-horizontal">	
-						
-						<dt>Namespace</dt>
-						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></dd>
-					
-						<dt>Containing Type</dt>
-						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a></dd>		
-					
-				</dl>
+  			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-6">
+						<dl class="dl-horizontal">		
+
+								<dt>Namespace</dt>
+								<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.Commands</a></dd>
+											
+							
+								<dt>Base Types</dt>
+								<dd>
+									<ul class="list-unstyled">										
+											<li>ICommand</li>								
+									</ul>
+								</dd>				
+							
+							
+						</dl>
+					</div>		
+					<div class="col-md-6">
+						<div class="mermaid">
+							graph BT
+	Type--&gt;Base0["ICommand"]
+	Type["RelayCommand"]
+class Type type-node
+
+						</div>
+					</div>
+				</div>
   			</div>
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>public SourcesViewModel(IChocolateyService packageService, IConfigService configService, IImageService imageService, IEventAggregator eventAggregator, Func&lt;string, LocalSourceViewModel&gt; localSourceVmFactory, SourcesViewModel.CreateRemove remoteSourceVmFactory)</code></pre>
+	<pre><code>public class RelayCommand : ICommand</code></pre>
 
 
 
 
 
-	<h1 id="Parameters">Parameters</h1>
-	<div class="box">
-		<div class="box-body no-padding table-responsive">
-			<table class="table table-striped table-hover three-cols">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-					<tbody><tr>
-						<td>packageService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService">IChocolateyService</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>configService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IConfigService">IConfigService</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>imageService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/IImageService">IImageService</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>eventAggregator</td>
-						<td>IEventAggregator</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>localSourceVmFactory</td>
-						<td>Func<wbr>&lt;string, <wbr><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a>&gt;<wbr></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>remoteSourceVmFactory</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/CreateRemove">SourcesViewModel<wbr>.CreateRemove</a></td>
-						<td></td>
-					</tr>
-			</tbody></table>
-		</div>
-	</div>	
 
-	<h1 id="ReturnValue">Return Value</h1>
-	<div class="box">
-		<div class="box-body no-padding table-responsive">
-			<table class="table table-striped table-hover two-cols">
-				<thead>
-					<tr>
-						<th>Type</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody><tr>
-					<td>void</td>
-					<td></td>
-				</tr>
-			</tbody></table>
-		</div>
-	</div>	
+
+			<h1 id="Constructors">Constructors</h1>
+			<div class="box">
+				<div class="box-body no-padding table-responsive">
+					<table class="table table-striped table-hover two-cols">
+						<thead>
+							<tr>
+								<th>Name</th>
+									<th>Summary</th>
+							</tr>
+						</thead>
+							<tbody><tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/42A880DD">RelayCommand<wbr>()<wbr></a></td>
+									<td></td>
+							</tr>
+							<tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/8747AA75">RelayCommand<wbr>(Action<wbr>&lt;object&gt;<wbr>)<wbr></a></td>
+									<td></td>
+							</tr>
+							<tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/F7E76BD3">RelayCommand<wbr>(Action<wbr>&lt;object&gt;<wbr>, <wbr>Predicate<wbr>&lt;object&gt;<wbr>)<wbr></a></td>
+									<td></td>
+							</tr>
+					</tbody></table>
+				</div>
+			</div>
+		
+
+			<h1 id="Events">Events</h1>
+			<div class="box">
+				<div class="box-body no-padding table-responsive">
+					<table class="table table-striped table-hover three-cols">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Summary</th>
+							</tr>
+						</thead>
+							<tbody><tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/4BC43916">CanExecuteChanged</a></td>
+								<td>EventHandler</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+					</tbody></table>
+				</div>
+			</div>
+		
+
+
+
+			<h1 id="Methods">Methods</h1>
+			<div class="box">
+				<div class="box-body no-padding table-responsive">
+					<table class="table table-striped table-hover three-cols">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Value</th>
+								<th>Summary</th>
+							</tr>
+						</thead>
+							<tbody><tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/CED5277D">CanExecute<wbr>(object)<wbr></a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Commands/RelayCommand/79BB88F1">Execute<wbr>(object)<wbr></a></td>
+								<td>void</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+					</tbody></table>
+				</div>
+			</div>
+		
+
 
 
 	

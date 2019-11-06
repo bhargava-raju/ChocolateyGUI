@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>ChocolateyGUI - API - AboutViewModel.AboutViewModel(IEventAggregator) Constructor</title>
+        <title>ChocolateyGUI - API - SourcesViewModel.DisplayVersion Property</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -75,8 +75,7 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
 	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
-<p><a href="#Parameters">Parameters</a></p>
-<p><a href="#ReturnValue">Return Value</a></p>
+<p><a href="#Value">Value</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -138,15 +137,20 @@
 			<li class="header">Namespace</li>
 		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></li>
 		<li class="header">Type</li>
-		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel">AboutViewModel</a></li>
+		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a></li>
 		<li role="separator" class="divider"></li>
 			<li class="header">Constructors</li>
-				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel/4D2A04C7">AboutViewModel<wbr>(IEventAggregator)<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/C86EA189">SourcesViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IConfigService, <wbr>IImageService, <wbr>IEventAggregator, <wbr>IVersionService, <wbr>Func<wbr>&lt;string, <wbr>Local<wbr>Source<wbr>View<wbr>Model&gt;<wbr>, <wbr>SourcesViewModel<wbr>.CreateRemove)<wbr></a></li>
+			<li class="header">NamedType Members</li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/CreateRemove">SourcesViewModel<wbr>.CreateRemove</a></li>
 			<li class="header">Property Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel/5F59DFD4">Chocolatey<wbr>Gui<wbr>Informational<wbr>Version</a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel/882A02A8">ChocolateyGuiVersion</a></li>
+				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/41D497B5">DisplayVersion</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/40868B9A">Primary<wbr>Application<wbr>Image<wbr>Source</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/5F99EEE7">Secondary<wbr>Application<wbr>Image<wbr>Source</a></li>
 			<li class="header">Method Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel/CB30C329">Back<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/0A0BA80C">Handle<wbr>(<wbr>Sources<wbr>Updated<wbr>Message)<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/32D55FCA">LoadSources<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel/94DE26B3">OnViewReady<wbr>(object)<wbr></a></li>
 
 
                     </ul>
@@ -161,55 +165,35 @@
 
 
 <section class="content-header">
-			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel">AboutViewModel</a>.</h3>
-	<h1>AboutViewModel<wbr>(IEventAggregator)<wbr> <small>Constructor</small></h1>
+			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a>.</h3>
+	<h1>DisplayVersion <small>Property</small></h1>
 </section>
 <section class="content">
 	
 	
 	
 		<div class="panel panel-default">
-  			<div class="panel-body">	
+  			<div class="panel-body">
 				<dl class="dl-horizontal">	
 						
 						<dt>Namespace</dt>
 						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></dd>
 					
 						<dt>Containing Type</dt>
-						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/AboutViewModel">AboutViewModel</a></dd>		
+						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourcesViewModel">SourcesViewModel</a></dd>		
 					
 				</dl>
   			</div>
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>public AboutViewModel(IEventAggregator eventAggregator)</code></pre>
+	<pre><code>public string DisplayVersion { get; }</code></pre>
 
 
 
 
 
-	<h1 id="Parameters">Parameters</h1>
-	<div class="box">
-		<div class="box-body no-padding table-responsive">
-			<table class="table table-striped table-hover three-cols">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-					<tbody><tr>
-						<td>eventAggregator</td>
-						<td>IEventAggregator</td>
-						<td></td>
-					</tr>
-			</tbody></table>
-		</div>
-	</div>	
-
-	<h1 id="ReturnValue">Return Value</h1>
+	<h1 id="Value">Value</h1>
 	<div class="box">
 		<div class="box-body no-padding table-responsive">
 			<table class="table table-striped table-hover two-cols">
@@ -220,7 +204,7 @@
 					</tr>
 				</thead>
 				<tbody><tr>
-					<td>void</td>
+					<td>string</td>
 					<td></td>
 				</tr>
 			</tbody></table>

@@ -178,6 +178,7 @@
 									<ul class="list-unstyled">
 											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.ViewModels.Items/IPackageViewModel">IPackageViewModel</a></li>								
 											<li>IHandle<wbr>&lt;<a href="/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/PackageHasUpdateMessage">Package<wbr>Has<wbr>Update<wbr>Message</a>&gt;<wbr></li>								
+											<li>IHandle<wbr>&lt;<a href="/ChocolateyGUI/api/ChocolateyGui.Common.Models.Messages/FeatureModifiedMessage">Feature<wbr>Modified<wbr>Message</a>&gt;<wbr></li>								
 									</ul>
 								</dd>
 							
@@ -201,6 +202,7 @@
 	Type-.-&gt;Interface0["IPackageViewModel"]
 	click Interface0 "/ChocolateyGUI/api/ChocolateyGui.Common.ViewModels.Items/IPackageViewModel"
 	Type-.-&gt;Interface1["IHandle&lt;PackageHasUpdateMessage&gt;"]
+	Type-.-&gt;Interface2["IHandle&lt;FeatureModifiedMessage&gt;"]
 	Type["PackageViewModel"]
 class Type type-node
 
@@ -212,7 +214,8 @@ class Type type-node
 
 	<h1 id="Syntax">Syntax</h1>
 	<pre><code>[DebuggerDisplay("Id = {Id}, Version = {Version}")]
-public class PackageViewModel : ObservableBase, IPackageViewModel, IHandle&lt;PackageHasUpdateMessage&gt;</code></pre>
+public class PackageViewModel : ObservableBase, IPackageViewModel, 
+    IHandle&lt;PackageHasUpdateMessage&gt;, IHandle&lt;FeatureModifiedMessage&gt;</code></pre>
 
 
 
@@ -248,7 +251,7 @@ public class PackageViewModel : ObservableBase, IPackageViewModel, IHandle&lt;Pa
 							</tr>
 						</thead>
 							<tbody><tr>
-								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/661BE3DC">PackageViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IEventAggregator, <wbr>IMapper, <wbr>IProgressService, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service)<wbr></a></td>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/B6218028">PackageViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IEventAggregator, <wbr>IMapper, <wbr>IProgressService, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service, <wbr>IConfigService)<wbr></a></td>
 									<td></td>
 							</tr>
 					</tbody></table>
@@ -575,6 +578,13 @@ public class PackageViewModel : ObservableBase, IPackageViewModel, IHandle&lt;Pa
 							</tr>
 						</thead>
 							<tbody><tr>
+								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/D871F80A">Handle<wbr>(<wbr>Feature<wbr>Modified<wbr>Message)<wbr></a></td>
+								<td>void</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
 								<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/9B911B9D">Handle<wbr>(<wbr>Package<wbr>Has<wbr>Update<wbr>Message)<wbr></a></td>
 								<td>void</td>
 								<td>
