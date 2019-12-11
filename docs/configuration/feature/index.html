@@ -122,6 +122,7 @@
                         
                 <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -141,16 +142,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -174,7 +175,7 @@
 			<h1>Feature</h1>
 		</section>
 	<section class="content">
-		<p>Enable/disable the various Chocolatey GUI features</p>
+		<p>The available feature options for Chocolatey GUI</p>
 
 			<div class="box">
 				<div class="box-body no-padding">
@@ -182,54 +183,54 @@
 						
 						<tbody>
 								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></strong></td>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></strong></td>
 									<td>
-Describe how access to the Chocolatey GUI Settings screen can be restricted to non-admin users.									</td>
+Shows output from the commands being executed when a job is running.									</td>
 								</tr>
 								<tr>
 									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></strong></td>
 									<td>
-									</td>
+Default to tile instead of list view. It is still possible to switch during use.									</td>
 								</tr>
 								<tr>
 									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></strong></td>
 									<td>
-									</td>
-								</tr>
-								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></strong></td>
-									<td>
-									</td>
-								</tr>
-								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></strong></td>
-									<td>
-									</td>
-								</tr>
-								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></strong></td>
-									<td>
-									</td>
-								</tr>
-								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></strong></td>
-									<td>
-									</td>
-								</tr>
-								<tr>
-									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></strong></td>
-									<td>
-									</td>
+Default to tile instead of list view. It is still possible to switch during use.									</td>
 								</tr>
 								<tr>
 									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></strong></td>
 									<td>
-									</td>
+Enables live search, which returns results after a short delay without clicking the search button.									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></strong></td>
+									<td>
+Do not show packages that are already installed when viewing sources.									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></strong></td>
+									<td>
+Show additional source combining all sources in one place.									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></strong></td>
+									<td>
+Show additional package information on Local and Remote views.									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></strong></td>
+									<td>
+Controls whether or not a non-administrator user can access the Settings Screen.  NOTE - This feature will only work when using the licensed extension for Chocolatey and Chocolatey GUI.									</td>
 								</tr>
 								<tr>
 									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></strong></td>
 									<td>
-									</td>
+Allows keyboard bindings to be used to interact with different areas of the Chocolatey GUI User Interface									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></strong></td>
+									<td>
+Allows control over whether package download count is displayed on remote source views.									</td>
 								</tr>
 						</tbody>				
 					</table>

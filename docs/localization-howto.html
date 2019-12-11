@@ -1,21 +1,19 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
+﻿<!DOCTYPE html><html><head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <meta name="description" />
-        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description">
+        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <title>Chocolatey GUI - Localization - How To</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
-        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet">
         <script src="/ChocolateyGUI/assets/js/jquery-2.2.3.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/bootstrap.min.js"></script>        
         <script src="/ChocolateyGUI/assets/js/app.min.js"></script>         
@@ -77,7 +75,12 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
         <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/localization-howto.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
-    <div id="infobar-headings"></div>
+    <div id="infobar-headings"><h6>On This Page</h6><p><a href="#basics">Basics</a></p>
+<p><a href="#transifex">transifex</a></p>
+<p><a href="#testing-other-languages">Testing Other Languages</a></p>
+<p><a href="#adding-new-strings-to-chocolatey-gui">Adding New Strings To Chocolatey GUI</a></p>
+<hr class="infobar-hidden">
+</div>
 
                 </section>
                 <section class="sidebar">    
@@ -122,6 +125,7 @@
                         
                 <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -141,16 +145,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -208,7 +212,7 @@ If a request goes unapproved for a period of time, reach out on the Chocolatey G
 <li>Navigate to the folder where you have cloned the Chocolatey GUI repository</li>
 <li>Run the following command:
 <ul>
-<li><code>.\build.ps1 --target=&quot;Transifex-Pull-Translations&quot;</code></li>
+<li><code>.\build.ps1 --target="Transifex-Pull-Translations"</code></li>
 </ul>
 </li>
 <li>You will be asked whether you have a transifex token
@@ -237,7 +241,7 @@ Add the following to your App.xaml.cs (located at <code>Source/ChocolateyGui/App
 <ul>
 <li><strong>Don't forget</strong> to remove this line of code after you're done testing!</li>
 </ul>
-<pre><code class="language-cs">System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(&quot;&lt;lang&gt;&quot;);
+<pre><code class="language-cs">System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("&lt;lang&gt;");
 application.Run();
 </code></pre>
 <p><strong>NOTE:</strong> If you are unsure what you should replace <code>&lt;lang&gt;</code> with, a list of available cultures and their corresponding codes tags can be found <a href="https://msdn.microsoft.com/en-us/library/cc233982.aspx">here</a>.</p>
@@ -276,7 +280,7 @@ Once this has been implemented, this code change will no longer be required.</p>
         room: 'chocolatey/ChocolateyGUI'
     };
 </script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="" defer=""></script>
         <script>           
             // Close the sidebar if we select an anchor link
             $(".main-sidebar a[href^='#']:not('.expand')").click(function(){
@@ -346,5 +350,5 @@ Once this has been implemented, this code change will no longer be required.</p>
                 }, 500);
             });
         </script>
-    </body>
-</html>
+    
+</body></html>

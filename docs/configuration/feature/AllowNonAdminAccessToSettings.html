@@ -76,6 +76,8 @@
                     	
         <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/configuration/feature/AllowNonAdminAccessToSettings.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
+<p><a href="#example">Example</a></p>
+<p><a href="#default-value">Default Value</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -122,6 +124,7 @@
                         
                 <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -141,16 +144,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li class="selected"><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li class="selected"><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -180,10 +183,21 @@
 <p>By default, this setting is enabled, so that we don't introduce a breaking change in the way that the application has worked to date.  However, at some point, this will likely be flipped to not allowing non-admin users to access the settings.</p>
 <p>When this setting is turned off, a non-admin user will no longer be able to access the Settings screen, as shown below:</p>
 <p><img src="/ChocolateyGUI/assets/img/Screenshots/access_to_settings_removed.png" class="img-fluid" alt="Access to Settings screen removed" title="Access to Settings screen removed"></p>
-<p><strong>NOTE:</strong> Regardless of this setting, an administrator user will always be able to access the Settings screen.</p>
-<h1 id="resources">Resources</h1>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>Regardless of this setting, an administrator user will always be able to access the Settings screen.</p>
+</div>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
-<iframe width="900" height="506" src="https://www.youtube.com/embed/VCTHWo7cgW0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<iframe width="700" height="506" src="https://www.youtube.com/embed/VCTHWo7cgW0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<h2 id="example">Example</h2>
+<p>This feature can be enabled by running the following command:</p>
+<pre><code class="language-powershell">chocolateyguicli feature enable --name="'AllowNonAdminAccessToSettings'"
+</code></pre>
+<p>This feaure can be disabled by running the following command:</p>
+<pre><code class="language-powershell">chocolateyguicli feature disable --name="'AllowNonAdminAccessToSettings'"
+</code></pre>
+<h2 id="default-value">Default Value</h2>
+<p>The default value for this feature is disabled.</p>
 
 	</section>
                 

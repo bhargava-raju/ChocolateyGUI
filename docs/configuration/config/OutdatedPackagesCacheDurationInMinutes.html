@@ -1,21 +1,19 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
+﻿<!DOCTYPE html><html><head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <meta name="description" />
-        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description">
+        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <title>Chocolatey GUI - Outdated Packages Cache Duration in Minutes</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
-        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet">
         <script src="/ChocolateyGUI/assets/js/jquery-2.2.3.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/bootstrap.min.js"></script>        
         <script src="/ChocolateyGUI/assets/js/app.min.js"></script>         
@@ -77,7 +75,10 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
         <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/configuration/config/OutdatedPackagesCacheDurationInMinutes.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
-    <div id="infobar-headings"></div>
+    <div id="infobar-headings"><h6>On This Page</h6><p><a href="#example">Example</a></p>
+<p><a href="#default-value">Default Value</a></p>
+<hr class="infobar-hidden">
+</div>
 
                 </section>
                 <section class="sidebar">    
@@ -122,6 +123,7 @@
                         
                 <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -141,16 +143,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -174,7 +176,21 @@
 			<h1>Outdated Packages Cache Duration in Minutes</h1>
 		</section>
 	<section class="content">
-		<p>Put something here...</p>
+		<p>In an attempt to be as efficient as possible, Chocolatey GUI caches the information about which of the installed
+packages are currently outdated.  Instead of running the <code>choco outdated</code> command every time that information is
+requested, the information is instead fetched from the local cache.  The length of time that the outdated packages
+information is kept can be controlled via this configuration parameter.  The default is 60 minutes, which can be
+increased as required.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>Any time a package operation is completed, i.e. install/uninstall/upgrade, the outdated package information cache will
+be invalidated.</p>
+</div>
+<h2 id="example">Example</h2>
+<p>To set this configuration parameter you can run the following:</p>
+<pre><code class="language-powershell">chocolateyguicli config set --name="'outdatedPackagesCacheDurationInMinutes'" --value="'120'"
+</code></pre>
+<h2 id="default-value">Default Value</h2>
+<p>The default value for this configuration is 60 minutes.</p>
 
 	</section>
                 
@@ -199,7 +215,7 @@
         room: 'chocolatey/ChocolateyGUI'
     };
 </script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="" defer=""></script>
         <script>           
             // Close the sidebar if we select an anchor link
             $(".main-sidebar a[href^='#']:not('.expand')").click(function(){
@@ -269,5 +285,5 @@
                 }, 500);
             });
         </script>
-    </body>
-</html>
+    
+</body></html>

@@ -77,8 +77,10 @@
         <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/commands/config.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#usage">Usage</a></p>
 <p><a href="#examples">Examples</a></p>
+<p><a href="#exit-codes">Exit Codes</a></p>
 <p><a href="#options-and-switches">Options and Switches</a></p>
 <p><a href="#resources">Resources</a></p>
+<p><a href="#configuration-options">Configuration Options</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -125,6 +127,7 @@
                         
                 <li class="selected"><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -144,16 +147,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -178,17 +181,24 @@
 		</section>
 	<section class="content">
 		<p>Chocolatey GUI will allow you to interact with the config settings.</p>
-<h1 id="usage">Usage</h1>
+<h2 id="usage">Usage</h2>
 <pre><code class="language-powershell">chocolateyguicli config [list]|get|set|unset [&lt;options/switches]
 </code></pre>
-<h1 id="examples">Examples</h1>
+<h2 id="examples">Examples</h2>
 <pre><code class="language-powershell">chocolateyguicli config
 chocolateyguicli config list
 chocolateyguicli config get --name="'outdatedPackagesCacheDurationInMinutes'"
 chocolateyguicli config set --name="'outdatedPackagesCacheDurationInMinutes'" --value="'60'"
 chocolateyguicli config unset --name="'outdatedPackagesCacheDurationInMinutes'"
 </code></pre>
-<h1 id="options-and-switches">Options and Switches</h1>
+<h2 id="exit-codes">Exit Codes</h2>
+<p>Exit codes that normally result from running this command.</p>
+<p>Normal:</p>
+<ul>
+<li>0: operation was successful, no issues detected</li>
+<li>-1 or 1: an error has occurred</li>
+</ul>
+<h2 id="options-and-switches">Options and Switches</h2>
 <pre><code class="language-powershell">-?, --help, -h
      Prints out the help menu.
 
@@ -198,8 +208,13 @@ chocolateyguicli config unset --name="'outdatedPackagesCacheDurationInMinutes'"
     --value=VALUE
      Value - the value of the config setting.  Required with some actions.
 </code></pre>
-<h1 id="resources">Resources</h1>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this in action:</p>
+<h2 id="configuration-options">Configuration Options</h2>
+<p>The available items that can be configured are:</p>
+<ul>
+<li><a href="../configuration/config/OutdatedPackagesCacheDurationInMinutes">outdatedPackagesCacheDurationInMinutes</a></li>
+</ul>
 
 	</section>
                 

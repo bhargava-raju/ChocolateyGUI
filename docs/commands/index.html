@@ -122,6 +122,7 @@
                         
                 <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
                 <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
 
                     </ul>
                 </li>
@@ -141,16 +142,16 @@
                     <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
                 <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
 
                     </ul>
                 </li>
@@ -174,7 +175,14 @@
 			<h1>Commands</h1>
 		</section>
 	<section class="content">
-		<p>Information about the various commands which can be used with Chocolatey GUI</p>
+		
+<p>While it is possible to configure all aspects of Chocolatey GUI from within the <a href="../usage/settings">Settings</a> screen, it is also possible
+to configure all aspects directly from three commands which are exposed with the `chocolateyguicli` executable.  This
+executable is installed with the Chocolatey GUI Chocolatey package, and is immediately available in both a PowerShell
+or Command window.  Three commands, `config`, `feature`, and `purge` are available to control the different aspects of Chocolatey
+GUI.</p>
+
+<p>Click on the links below to find out more information about each command.</p>
 
 			<div class="box">
 				<div class="box-body no-padding">
@@ -190,6 +198,11 @@ Usage instructions on how to list/get/set/unset Chocolatey GUI config settings.	
 									<td><strong><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></strong></td>
 									<td>
 Usage instructions on how to enable/disable Chocolatey GUI features									</td>
+								</tr>
+								<tr>
+									<td><strong><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></strong></td>
+									<td>
+Usage instructions on how to execute the purge command									</td>
 								</tr>
 						</tbody>				
 					</table>
