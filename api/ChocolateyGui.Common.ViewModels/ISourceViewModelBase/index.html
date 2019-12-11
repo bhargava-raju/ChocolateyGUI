@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>ChocolateyGUI - API - ISourceViewModelBase Interface</title>
+        <title>Chocolatey GUI - API - ISourceViewModelBase Interface</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -36,7 +36,7 @@
             <header class="main-header">   
                      
                 <a href="/ChocolateyGUI/" class="logo">
-                            <span>ChocolateyGUI</span>
+                            <span>Chocolatey GUI</span>
                 </a>   
                          
                 <nav class="navbar navbar-static-top" role="navigation">
@@ -174,9 +174,9 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a></li>								
-											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/RemoteSourceViewModel">Remote<wbr>Source<wbr>View<wbr>Model</a></li>								
 											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourceSeparatorViewModel">Source<wbr>Separator<wbr>View<wbr>Model</a></li>								
+											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/RemoteSourceViewModel">Remote<wbr>Source<wbr>View<wbr>Model</a></li>								
+											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a></li>								
 									</ul>
 								</dd>				
 						</dl>
@@ -186,12 +186,12 @@
 							graph BT
 	Type["ISourceViewModelBase"]
 class Type type-node
-	Implementing0["LocalSourceViewModel"]-.-&gt;Type
-	click Implementing0 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel"
+	Implementing0["SourceSeparatorViewModel"]-.-&gt;Type
+	click Implementing0 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourceSeparatorViewModel"
 	Implementing1["RemoteSourceViewModel"]-.-&gt;Type
 	click Implementing1 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/RemoteSourceViewModel"
-	Implementing2["SourceSeparatorViewModel"]-.-&gt;Type
-	click Implementing2 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/SourceSeparatorViewModel"
+	Implementing2["LocalSourceViewModel"]-.-&gt;Type
+	click Implementing2 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel"
 
 						</div>
 					</div>
