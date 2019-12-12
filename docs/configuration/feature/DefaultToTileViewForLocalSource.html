@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,16 @@
 			<h1>Default to Tile View for Local Source</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, Chocolatey GUI uses a list view to show all of the packages that are currently installed locally on the
+machine that is executing Chocolatey GUI.  As a result, you will see a screen similar to the following when first
+starting the application:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_default_tile_view_local_disabled.png" class="img-fluid" alt="Default to Tile View for Local Source Disabled" title="Default to Tile View for Local Source Disabled"></p>
+<p>It is possible to toggle between the list view and a tile view for the packages that are installed locally using the
+buttons at the top right hand corner of the application, but it you prefer to see the tile view by default, then you
+can enable it with this feature.  As a result, you will see something like the following when first starting the
+application:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_default_tile_view_local_enabled.png" class="img-fluid" alt="Default to Tile View for Local Source Enabled" title="Default to Tile View for Local Source Enabled"></p>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +198,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is disabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.16.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 

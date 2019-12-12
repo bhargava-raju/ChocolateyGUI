@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,18 @@
 			<h1>Exclude Installed Packages</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, when viewing remote sources, such as the Chocolatey Community Repository, Chocolatey GUI will show you all
+availalbe packages, even if you already have them installed.  Installed packages will be marked with a green banner,
+indicating that they are currently installed.  As a result, you may see something like the following:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_exclude_installed_packages_disabled.png" class="img-fluid" alt="Exclude Installed Packages Disabled" title="Exclude Installed Packages Disabled"></p>
+<p>By enabling this feature, packages that are already installed will no longer be shown in the list of available packages,
+as shown here:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_exclude_installed_packages_enabled.png" class="img-fluid" alt="Exclude Installed Packages Enabled" title="Exclude Installed Packages Enabled"></p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>When first enabling this feature, if the remote source was already open, it will be refresh to refresh the package list
+before the packages will be excluded.</p>
+</div>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +200,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is disabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.17.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 

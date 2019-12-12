@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,19 @@
 			<h1>Show Aggregated Source</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, Chocolatey GUI shows a source view for every feed that is configured for Chocolatey.  Clicking on each tab
+will show all of the packages for that selected feed.  As a result, the normal Chocolatey GUI view looks something like
+the following:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_aggregated_source_disabled.png" class="img-fluid" alt="Show Aggregated Source Disabled" title="Show Aggregated Source Disabled"></p>
+<p>By enabling this feature, it is possible to add an additional source view, which aggregates all the packages from all
+configured sources, into a single view.  Once enabled, you will see a new <code>All Sources</code> tab available for selection,
+similar to the following:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_aggregated_source_enabled.png" class="img-fluid" alt="Show Aggregated Source Enabled" title="Show Aggregated Source Enabled"></p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>When first enabling this feature, it will be necessary to close and re-open Chocolatey GUI in order to see the new source
+view.</p>
+</div>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +201,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is disabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.17.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 

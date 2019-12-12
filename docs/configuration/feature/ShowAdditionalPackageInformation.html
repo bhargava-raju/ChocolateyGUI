@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,19 @@
 			<h1>Show Additional Package Information</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, when using the list view for local and remote sources, a limited set of information is provided.  This
+information is the minimum amount of information that is required to make informed decisions about interacting with the
+packages that are shown.  As a result, when using Chocolatey GUI, you will see the following when using the local
+source:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_additional_package_information_disabled_1.png" class="img-fluid" alt="Show Additional Package Information Disabled 1" title="Show Additional Package Information Disabled 1"></p>
+<p>And the following when using a remote source:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_additional_package_information_disabled_2.png" class="img-fluid" alt="Show Additional Package Information Disabled 2" title="Show Additional Package Information Disabled 2"></p>
+<p>By enabling this feature, you allow the addition of extra package information to be displayed.  For example, in the
+local source view, you will see additional columns for package id and whether or not it is a pre-release package:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_additional_package_information_enabled_1.png" class="img-fluid" alt="Show Additional Package Information Enabled 1" title="Show Additional Package Information Enabled 1"></p>
+<p>And in the remote source view, it will be rendered as follows:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_show_additional_package_information_enabled_2.png" class="img-fluid" alt="Show Additional Package Information Enabled 2" title="Show Additional Package Information Enabled 2"></p>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +201,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is disabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.17.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 

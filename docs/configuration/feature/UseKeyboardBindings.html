@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,18 @@
 			<h1>Use Keyboard Bindings</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, Chocolatey GUI ships with some keyboard bindings that make navigating sources easier when using the
+keyboard.  In the screenshot below, it is possible to navigate to the <code>chocolatey.licensed</code> feed using <code>CTRL + 3</code> and
+then back to the <code>This PC</code> feed using <code>CTRL + 1</code>.  It is also possible to navigate to the <code>chocolatey</code> feed using
+<code>CTRL + 2</code>.</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_use_keyboard_bindings.png" class="img-fluid" alt="Use Keyyboard Bindings" title="Use Keyboard Bindings"></p>
+<p>Disabling this feature will stop these navigations from being possible using these keyboard shortcuts, but they can
+still be navigated to using the mouse in the normal way.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>Keyboard bindings are only supported for the first 9 sources.  Trying to press <code>CTRL + 1 + 0</code> for navigating to a tenth
+source will not work.</p>
+</div>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +200,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is enabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.17.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 

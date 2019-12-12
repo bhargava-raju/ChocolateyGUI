@@ -78,6 +78,7 @@
     <div id="infobar-headings"><h6>On This Page</h6><p><a href="#resources">Resources</a></p>
 <p><a href="#example">Example</a></p>
 <p><a href="#default-value">Default Value</a></p>
+<p><a href="#availability">Availability</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -177,7 +178,21 @@
 			<h1>Hide Package Download Count</h1>
 		</section>
 	<section class="content">
-		<h2 id="resources">Resources</h2>
+		<p>By default, Chocolatey GUI will attempt to show the download statistics for a package on a remote feed.  This can be
+useful when making a decision about whether to install a package or not.  For example, when viewing the Chocolatey
+Community Repository feed, you will see the following:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_hide_package_download_count_disabled_1.png" class="img-fluid" alt="Hide Package Download Count Disabled 1" title="Hide Package Download Count Disabled 1"></p>
+<p>However, when using a feed that doesn't support package download statisics, you can be shown the following which isn't
+as useful:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_hide_package_download_count_disabled_2.png" class="img-fluid" alt="Hide Package Download Count Disabled 2" title="Hide Package Download Count Disabled 2"></p>
+<p>By enabling this feature, you can turn off package download count for all sources, and as a result, you will see the
+following:</p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_hide_package_download_count_enabled_1.png" class="img-fluid" alt="Hide Package Download Count Enabled 1" title="Hide Package Download Count Enabled 1"></p>
+<p><img src="/ChocolateyGUI/assets/img/Screenshots/feature_hide_package_download_count_enabled_2.png" class="img-fluid" alt="Hide Package Download Count Enabled 2" title="Hide Package Download Count Enabled 2"></p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>It is currently not possible to configure showing/hiding the package download count for individual feeds</p>
+</div>
+<h2 id="resources">Resources</h2>
 <p>Below is a short video which shows this feature in action:</p>
 <h2 id="example">Example</h2>
 <p>This feature can be enabled by running the following command:</p>
@@ -188,6 +203,10 @@
 </code></pre>
 <h2 id="default-value">Default Value</h2>
 <p>The default value for this feature is disabled.</p>
+<h2 id="availability">Availability</h2>
+<p>The ability to control this feature from the Chocolatey GUI Settings screen has existed since Chocolatey GUI v0.17.0.</p>
+<p>The ability to control this feature from the command line using <code>chocolateyguicli</code> has existed since Chocolatey GUI
+v0.17.0.</p>
 
 	</section>
                 
