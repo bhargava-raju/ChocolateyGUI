@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>Chocolatey GUI - Switching Display of Package</title>
+        <title>Chocolatey GUI - Install Chocolatey GUI</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
@@ -76,7 +76,7 @@
             <aside class="main-sidebar ">
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
-        <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/usage/tileview.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
+        <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/installation/chocolatey_gui.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
     <div id="infobar-headings"></div>
 
                 </section>
@@ -88,31 +88,78 @@
                         
 
                 <li class="treeview active">
-                    <a href="/ChocolateyGUI/docs/usage">Usage</a> <a href="#" class="expand"></a>
+                    <a href="/ChocolateyGUI/docs/installation">Installation</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li class="selected"><a href="/ChocolateyGUI/docs/installation/chocolatey_gui">Install Chocolatey GUI</a></li>
+                <li><a href="/ChocolateyGUI/docs/installation/chocolatey_gui_extension">Install Chocolatey GUI Extension</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface">User Interface</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
                 <li class="treeview">
-                    <a href="/ChocolateyGUI/docs/usage/settings">Settings</a> <a href="#" class="expand"></a>
+                    <a href="/ChocolateyGUI/docs/user_interface/main_window">Main Window</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/usage/settings/chocolatey">Chocolatey</a></li>
-                <li><a href="/ChocolateyGUI/docs/usage/settings/chocolateygui">Chocolateygui</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/local_source">Local Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/remote_source">Remote Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/package_details">Package Details</a></li>
                 <li class="treeview">
-                    <a href="/ChocolateyGUI/docs/usage/settings/sources">Sources</a> <a href="#" class="expand"></a>
+                    <a href="/ChocolateyGUI/docs/user_interface/main_window/actions">Actions</a> <a href="#" class="expand"></a>
                     <ul class="treeview-menu">
                         
-                <li><a href="/ChocolateyGUI/docs/usage/settings/sources/add">Add Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/usage/settings/sources/edit">Edit Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/usage/settings/sources/delete">Delete Source</a></li>
-                <li><a href="/ChocolateyGUI/docs/usage/settings/sources/admin-only-sources">Admin Only Sources</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/search">Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/refresh">Refresh</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/update_all">Update All</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/export">Export</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/tileview">Switching Display of Package</a></li>
 
                     </ul>
                 </li>
 
                     </ul>
                 </li>
-                <li><a href="/ChocolateyGUI/docs/usage/search">Search</a></li>
-                <li class="selected"><a href="/ChocolateyGUI/docs/usage/tileview">Switching Display of Package</a></li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings">Settings</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/chocolatey_gui">Chocolatey GUI</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/chocolatey">Chocolatey</a></li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings/sources">Sources</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/add">Add Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/edit">Edit Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/delete">Delete Source</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings/actions">Actions</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/actions/purge_outdated_packages">Purge Outdated Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/actions/purge_icons">Purge Icons</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/about">About</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/history">History</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/credits">Credits</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/release_notes">Release Notes</a></li>
+
+                    </ul>
+                </li>
 
                     </ul>
                 </li>
@@ -158,7 +205,16 @@
 
                     </ul>
                 </li>
-                <li><a href="/ChocolateyGUI/docs/localization-howto">Localization - How To</a></li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/business_features">Business Features</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/business_features/branding">Branding</a></li>
+                <li><a href="/ChocolateyGUI/docs/business_features/admin-only-sources">Admin Only Sources</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="/ChocolateyGUI/docs/localization">Localization</a></li>
 
                     </ul>
                             
@@ -172,10 +228,10 @@
 
 
 		<section class="content-header">
-			<h1>Switching Display of Package</h1>
+			<h1>Install Chocolatey GUI</h1>
 		</section>
 	<section class="content">
-		<p>Put something here...</p>
+		<p>Put stuff here...</p>
 
 	</section>
                 

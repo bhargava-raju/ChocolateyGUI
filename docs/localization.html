@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html><html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description">
+        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
+        <title>Chocolatey GUI - Localization</title>
+        <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet">
+        <script src="/ChocolateyGUI/assets/js/jquery-2.2.3.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/bootstrap.min.js"></script>        
+        <script src="/ChocolateyGUI/assets/js/app.min.js"></script>         
+        <script src="/ChocolateyGUI/assets/js/highlight.pack.js"></script>   
+        <script src="/ChocolateyGUI/assets/js/jquery.slimscroll.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/jquery.sticky-kit.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/mermaid.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/svg-pan-zoom.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="/ChocolateyGUI/assets/js/html5shiv.min.js"></script>
+        <script src="/ChocolateyGUI/assets/js/respond.min.js"></script>
+        <![endif]-->  
+
+        
+    </head>
+    <body class="hold-transition wyam layout-boxed  ">    
+        <div class="top-banner"></div>
+        <div class="wrapper with-container">
+            <!-- Header -->
+            <header class="main-header">   
+                     
+                <a href="/ChocolateyGUI/" class="logo">
+                            <span>Chocolatey GUI</span>
+                </a>   
+                         
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <!-- Sidebar toggle button-->
+                        <a href="#" class="sidebar-toggle visible-xs-block" data-toggle="offcanvas" role="button">
+                            <span class="sr-only">Toggle side menu</span>
+                            <i class="fa fa-chevron-circle-right"></i>
+                        </a>
+                                        
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle side menu</span>
+                            <i class="fa fa-chevron-circle-down"></i>
+                        </button>
+                    </div>
+            
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav">                            
+                                    <li><a href="/ChocolateyGUI/about">About</a></li>
+        <li><a href="/ChocolateyGUI/credits">Credits</a></li>
+        <li class="active"><a href="/ChocolateyGUI/docs">Docs</a></li>
+        <li><a href="/ChocolateyGUI/blog">Blog</a></li>
+        <li><a href="/ChocolateyGUI/api">API</a></li>
+ 
+                        </ul>       
+                    </div>
+                    <!-- /.navbar-collapse -->
+                
+                    <!-- Navbar Right Menu -->
+                </nav>
+            </header>
+            
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar ">
+                <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
+                    	
+        <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/localization.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
+    <div id="infobar-headings"><h6>On This Page</h6><p><a href="#basics">Basics</a></p>
+<p><a href="#transifex">transifex</a></p>
+<p><a href="#testing-other-languages">Testing Other Languages</a></p>
+<p><a href="#adding-new-strings-to-chocolatey-gui">Adding New Strings To Chocolatey GUI</a></p>
+<hr class="infobar-hidden">
+</div>
+
+                </section>
+                <section class="sidebar">    
+                                     
+                    
+
+                    <ul class="sidebar-menu">
+                        
+
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/installation">Installation</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/installation/chocolatey_gui">Install Chocolatey GUI</a></li>
+                <li><a href="/ChocolateyGUI/docs/installation/chocolatey_gui_extension">Install Chocolatey GUI Extension</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface">User Interface</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/main_window">Main Window</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/local_source">Local Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/remote_source">Remote Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/package_details">Package Details</a></li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/main_window/actions">Actions</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/search">Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/refresh">Refresh</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/update_all">Update All</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/export">Export</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/main_window/actions/tileview">Switching Display of Package</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings">Settings</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/chocolatey_gui">Chocolatey GUI</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/chocolatey">Chocolatey</a></li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings/sources">Sources</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/add">Add Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/edit">Edit Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/sources/delete">Delete Source</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/settings/actions">Actions</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/actions/purge_outdated_packages">Purge Outdated Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/settings/actions/purge_icons">Purge Icons</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/user_interface/about">About</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/history">History</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/credits">Credits</a></li>
+                <li><a href="/ChocolateyGUI/docs/user_interface/about/release_notes">Release Notes</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/commands">Commands</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/commands/config">Config</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/feature">Feature</a></li>
+                <li><a href="/ChocolateyGUI/docs/commands/purge">Purge</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/configuration">Configuration</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/configuration/config">Config</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/configuration/config/OutdatedPackagesCacheDurationInMinutes">Outdated Packages Cache Duration in Minutes</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/configuration/feature">Feature</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowConsoleOutput">Show Console Output</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForLocalSource">Default to Tile View for Local Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/DefaultToTileViewForRemoteSource">Default to Tile View for Remote Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/UseDelayedSearch">Use Delayed Search</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ExcludeInstalledPackages">Exclude Installed Packages</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAggregatedSourceView">Show Aggregated Source</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/ShowAdditionalPackageInformation">Show Additional Package Information</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/AllowNonAdminAccessToSettings">Allow Non Admin Access to Settings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/UseKeyboardBindings">Use Keyboard Bindings</a></li>
+                <li><a href="/ChocolateyGUI/docs/configuration/feature/HidePackageDownloadCount">Hide Package Download Count</a></li>
+
+                    </ul>
+                </li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/business_features">Business Features</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/business_features/branding">Branding</a></li>
+                <li><a href="/ChocolateyGUI/docs/business_features/admin-only-sources">Admin Only Sources</a></li>
+
+                    </ul>
+                </li>
+                <li class="selected"><a href="/ChocolateyGUI/docs/localization">Localization</a></li>
+
+                    </ul>
+                            
+                </section>                
+            </aside>
+            
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                
+
+
+
+		<section class="content-header">
+			<h1>Localization</h1>
+		</section>
+	<section class="content">
+		<h2 id="basics">Basics</h2>
+<p>To enable using localized strings in the Chocolatey GUI UI, the UI loads all its strings from a set of resource files called <code>resx</code> files.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>Only the default <code>Resources.resx</code> file is committed into source control.  All other translations are downloaded from transifex at the time of compilation (more information on this below).</p>
+</div>
+<p>These <code>resx</code> files allows defining language and culture specific strings and resources, while having English fallbacks when they aren't present.
+This allows Chocolatey GUI to, in general, be localization neutral.
+For more information about localization using <code>resx</code> check the CultureInfo section on <a href="https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo(v=vs.110).aspx">MSDN</a>.</p>
+<p>The most important thing to remember is: each language has it's own <code>Resources.&lt;lang&gt;.resx</code>, where <code>&lt;lang&gt;</code> is referring to the language culture name (as an example <code>de</code> for German or <code>nl</code> for Dutch).
+A list of available cultures and their corresponding codes tags can be found <a href="https://msdn.microsoft.com/en-us/library/cc233982.aspx">here</a>.
+If no fitting <code>&lt;lang&gt;</code> is present for the current system, the default/fallback <code>Resources.resx</code> - containing the English language will be chosen.</p>
+<p>When a new release of Chocolatey GUI is created, the resx files at the time of compilation are embedded within the generated assembly.
+As a result, any modifications/additions to any files will not be available until the next release of Chocolatey GUI.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>It is possible, assuming you have a transifex token, to download the resx files locally onto your environment. and compile Chocolatey GUI, will would allow you to test any changes locally.  More information on this below.</p>
+</div>
+<h2 id="transifex">transifex</h2>
+<p>The Chocolatey GUI project makes use of the localization platform known as <a href="https://www.transifex.com/">transifex</a>.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>This is normally a paid for service, however, we are using the Open Source offering that they provide.</p>
+</div>
+<h3 id="helping-with-translations">Helping with translations</h3>
+<p>In order to help with the localization effort for Chocolatey GUI, you will need to create an account on <a href="https://www.transifex.com/">transifex</a>.
+Once you have an account, you will be able to request to join the <a href="https://www.transifex.com/chocolatey/chocolatey-gui/dashboard/">Chocolatey GUI</a> project in transifex.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>This request will need to be approved.</p>
+</div>
+<p>If a request goes unapproved for a period of time, reach out on the Chocolatey GUI <a href="https://gitter.im/chocolatey/ChocolateyGUI">Gitter</a> room for help.</p>
+<h3 id="adding-a-new-language">Adding a new language</h3>
+<p>If a language hasn't yet been created for the Chocolatey GUI project that you would like to help with, you will need to make a request to have it added.
+This can be done via the <a href="https://www.transifex.com/chocolatey/chocolatey-gui/dashboard/">Chocolatey GUI dashboard</a>.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong>
+Adding a new language to the project will require approval.</p>
+</div>
+<p>If a request goes unapproved for a period of time, reach out on the Chocolatey GUI <a href="https://gitter.im/chocolatey/ChocolateyGUI">Gitter</a> room for help.</p>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>If you are requesting a new language that uses a full language code, for example <code>zh_CN</code> rather than a language code similar to <code>de</code>, please get in touch with one of the project maintainers, as a Pull Request similar to <a href="https://github.com/chocolatey/ChocolateyGUI/pull/634">this</a> will be required.</p>
+</div>
+<h2 id="testing-other-languages">Testing Other Languages</h2>
+<h3 id="download-transifex-files">Download transifex files</h3>
+<p>In order to test other languages within Chocolatey GUI, prior to a release, you will need to do the following:</p>
+<ul>
+<li>Open an Administrative PowerShell Window</li>
+<li>Navigate to the folder where you have cloned the Chocolatey GUI repository</li>
+<li>Run the following command:
+<ul>
+<li><code>.\build.ps1 --target="Transifex-Pull-Translations"</code></li>
+</ul>
+</li>
+<li>You will be asked whether you have a transifex token
+<ul>
+<li>If so, answer yes, and enter it</li>
+<li>If not, answer no, and you will be prompted for your transifex username/password</li>
+</ul>
+</li>
+<li>Once all information is provided, hit enter</li>
+<li>All current resx files should be downloaded into the <code>Source\ChocolateyGui\Properties</code> folder</li>
+<li>Build the application by running the command:
+<ul>
+<li><code>.\build.ps1</code></li>
+</ul>
+</li>
+<li>Assuming that completes successfully, you should be able to install the generated MSI, which will contain the most recent translations available</li>
+</ul>
+<h3 id="reset-transifex-authentication">Reset transifex authentication</h3>
+<p>If for some reason you need to reset the authentication used by transifex, you will need to delete the persisted information.
+This can be found in the root of your Users folder, in a file called <code>.transifexrc</code>.
+Simply delete this file.
+If you do this, you will need to run the <code>Transifex-Pull-Translations</code> task again, in order to provide the required information.</p>
+<h3 id="temporary-code-change">Temporary code change</h3>
+<p>When testing another language (that does not match the current system locale), a little code-snippet has to be added.
+Add the following to your App.xaml.cs (located at <code>Source/ChocolateyGui/App.xaml.cs</code>) (right before <code>application.Run();</code>)</p>
+<ul>
+<li><strong>Don't forget</strong> to remove this line of code after you're done testing!</li>
+</ul>
+<pre><code class="language-cs">System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("&lt;lang&gt;");
+application.Run();
+</code></pre>
+<div class="alert alert-info"><p><strong>NOTE:</strong></p>
+<p>If you are unsure what you should replace <code>&lt;lang&gt;</code> with, a list of available cultures and their corresponding codes tags can be found <a href="https://msdn.microsoft.com/en-us/library/cc233982.aspx">here</a>.</p>
+</div>
+<div class="alert alert-info"><p><strong>NOTE:</strong>
+There is an <a href="https://github.com/chocolatey/ChocolateyGUI/issues/533">open issue</a> that would allow runtime modification of the current locale, but this hasn't been implemented yet.</p>
+</div>
+<p>Once this has been implemented, this code change will no longer be required.</p>
+<h2 id="adding-new-strings-to-chocolatey-gui">Adding New Strings To Chocolatey GUI</h2>
+<p>The following rules of thumb apply for adding entirely new strings to Chocolatey GUI:</p>
+<ul>
+<li>Always use static bindings (lang:Resources.xyz)</li>
+<li>Use context-sensitive names (<code>PageOrControlName_StringUsageHintOrName</code>)</li>
+<li>Always add the new String to <code>Resources.resx</code> (English)</li>
+<li>Only changes to this one file should be committed into source control</li>
+<li>Once your changes have been merged into the develop branch, the resx file will be uploaded to Transifex, which will then make the strings available for translation into other languages</li>
+</ul>
+
+	</section>
+                
+            </div>           
+            
+            <!-- Footer -->
+            <footer class="main-footer">
+            </footer>
+            
+        </div>
+        <div class="wrapper bottom-wrapper">
+            <footer class="bottom-footer">
+                Generated by <a href="https://wyam.io">Wyam</a>
+            </footer>
+        </div>
+        <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+        <div class="github-button">
+    <a href="https://github.com/chocolatey/ChocolateyGUI"><i class="fa fa-github"></i> GitHub</a>
+</div>
+<script>
+    ((window.gitter = {}).chat = {}).options = {
+        room: 'chocolatey/ChocolateyGUI'
+    };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="" defer=""></script>
+        <script>           
+            // Close the sidebar if we select an anchor link
+            $(".main-sidebar a[href^='#']:not('.expand')").click(function(){
+                $(document.body).removeClass('sidebar-open');
+            });
+            
+            $(document).ready(function() {
+                mermaid.initialize(
+                {
+                    flowchart:
+                    {
+                        useMaxWidth: false
+                    },
+					startOnLoad: false,
+					cloneCssStyles: false
+                });     
+                mermaid.init(undefined, ".mermaid");
+
+                // Remove the max-width setting that Mermaid sets
+                var mermaidSvg = $('.mermaid svg');
+                mermaidSvg.addClass('img-responsive');
+                mermaidSvg.css('max-width', '');
+
+                // Make it scrollable
+				var target = document.querySelector(".mermaid svg");
+				if(target !== null)
+				{
+					var panZoom = window.panZoom = svgPanZoom(target, {
+						zoomEnabled: true,
+						controlIconsEnabled: true,
+						fit: true,
+						center: true,
+                        maxZoom: 20,
+                        zoomScaleSensitivity: 0.6
+					});			                          
+
+                    // Do the reset once right away to fit the diagram
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                    
+                    $(window).resize(function(){
+                        panZoom.resize();
+                        panZoom.fit();
+                        panZoom.center();
+                    });
+				}
+                
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });  
+            });
+
+            hljs.initHighlightingOnLoad();
+
+            // Back to top
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
+                    $('#return-to-top').fadeIn(1000);    // Fade in the arrow
+                } else {
+                    $('#return-to-top').fadeOut(1000);   // Else fade out the arrow
+                }
+            });
+            $('#return-to-top').click(function() {      // When arrow is clicked
+                $('body,html').animate({
+                    scrollTop : 0                       // Scroll to top of body
+                }, 500);
+            });
+        </script>
+    
+</body></html>
