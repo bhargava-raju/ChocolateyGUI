@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>Chocolatey GUI - API - PackageViewModel.PackageViewModel(IChocolateyService, IEventAggregator, IMapper, IProgressService, IChocolateyGuiCacheService, IConfigService) Constructor</title>
+        <title>Chocolatey GUI - API - PackageViewModel.CanUninstall Property</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -75,8 +75,7 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
 	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
-<p><a href="#Parameters">Parameters</a></p>
-<p><a href="#ReturnValue">Return Value</a></p>
+<p><a href="#Value">Value</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -141,9 +140,14 @@
 		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel">PackageViewModel</a></li>
 		<li role="separator" class="divider"></li>
 			<li class="header">Constructors</li>
-				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/B6218028">PackageViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IEventAggregator, <wbr>IMapper, <wbr>IProgressService, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service, <wbr>IConfigService)<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/8A52EA9C">PackageViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IEventAggregator, <wbr>IMapper, <wbr>IProgressService, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service, <wbr>IConfigService, <wbr>I<wbr>Allowed<wbr>Commands<wbr>Service)<wbr></a></li>
 			<li class="header">Property Members</li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/F4871FA9">Authors</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/26B79C6A">CanInstall</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/EABF6C23">CanPin</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/F6DE07CF">CanReinstall</a></li>
+				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/69AF0CF6">CanUninstall</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/EA212CE3">CanUnpin</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/551F7311">CanUpdate</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/19A59643">Copyright</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel/1D1A2E95">Created</a></li>
@@ -210,14 +214,14 @@
 
 <section class="content-header">
 			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels.Items/PackageViewModel">PackageViewModel</a>.</h3>
-	<h1>PackageViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IEventAggregator, <wbr>IMapper, <wbr>IProgressService, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service, <wbr>IConfigService)<wbr> <small>Constructor</small></h1>
+	<h1>CanUninstall <small>Property</small></h1>
 </section>
 <section class="content">
 	
 	
 	
 		<div class="panel panel-default">
-  			<div class="panel-body">	
+  			<div class="panel-body">
 				<dl class="dl-horizontal">	
 						
 						<dt>Namespace</dt>
@@ -231,58 +235,13 @@
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>public PackageViewModel(IChocolateyService chocolateyService, IEventAggregator eventAggregator, IMapper mapper, IProgressService progressService, IChocolateyGuiCacheService chocolateyGuiCacheService, IConfigService configService)</code></pre>
+	<pre><code>public bool CanUninstall { get; }</code></pre>
 
 
 
 
 
-	<h1 id="Parameters">Parameters</h1>
-	<div class="box">
-		<div class="box-body no-padding table-responsive">
-			<table class="table table-striped table-hover three-cols">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-					<tbody><tr>
-						<td>chocolateyService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService">IChocolateyService</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>eventAggregator</td>
-						<td>IEventAggregator</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>mapper</td>
-						<td>IMapper</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>progressService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Services/IProgressService">IProgressService</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>chocolateyGuiCacheService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyGuiCacheService">I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service</a></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>configService</td>
-						<td><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IConfigService">IConfigService</a></td>
-						<td></td>
-					</tr>
-			</tbody></table>
-		</div>
-	</div>	
-
-	<h1 id="ReturnValue">Return Value</h1>
+	<h1 id="Value">Value</h1>
 	<div class="box">
 		<div class="box-body no-padding table-responsive">
 			<table class="table table-striped table-hover two-cols">
@@ -293,7 +252,7 @@
 					</tr>
 				</thead>
 				<tbody><tr>
-					<td>void</td>
+					<td>bool</td>
 					<td></td>
 				</tr>
 			</tbody></table>

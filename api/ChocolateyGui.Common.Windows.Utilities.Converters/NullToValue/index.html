@@ -147,6 +147,7 @@
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/EnumToBoolConverter">EnumToBoolConverter</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/LongSizeToFileSizeString">Long<wbr>Size<wbr>To<wbr>File<wbr>Size<wbr>String</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/MultiBooleanAndToVisibility">Multi<wbr>Boolean<wbr>And<wbr>To<wbr>Visibility</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToBool">NullToBool</a></li>
 				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToValue">NullToValue</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToVisibility">NullToVisibility</a></li>
 				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/PackageDependenciesToString">Package<wbr>Dependencies<wbr>To<wbr>String</a></li>
@@ -192,6 +193,7 @@
 								<dt>Derived Types</dt>
 								<dd>
 									<ul class="list-unstyled">
+											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToBool">NullToBool</a></li>								
 											<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToVisibility">NullToVisibility</a></li>								
 									</ul>
 								</dd>			
@@ -204,8 +206,10 @@
 	Type--&gt;Base0["IValueConverter"]
 	Type["NullToValue"]
 class Type type-node
-	Derived0["NullToVisibility"]--&gt;Type
-	click Derived0 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToVisibility"
+	Derived0["NullToBool"]--&gt;Type
+	click Derived0 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToBool"
+	Derived1["NullToVisibility"]--&gt;Type
+	click Derived1 "/ChocolateyGUI/api/ChocolateyGui.Common.Windows.Utilities.Converters/NullToVisibility"
 
 						</div>
 					</div>
