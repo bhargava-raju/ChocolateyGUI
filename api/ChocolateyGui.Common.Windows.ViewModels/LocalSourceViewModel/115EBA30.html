@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
-        <title>Chocolatey GUI - API - IChocolateyService.GetOutdatedPackages(bool, string) Method</title>
+        <title>Chocolatey GUI - API - LocalSourceViewModel.CanCheckForOutdatedPackages() Method</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
@@ -75,7 +75,6 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
 	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
-<p><a href="#Parameters">Parameters</a></p>
 <p><a href="#ReturnValue">Return Value</a></p>
 <hr class="infobar-hidden">
 </div>
@@ -136,31 +135,37 @@
                     <ul class="sidebar-menu">
                         
 			<li class="header">Namespace</li>
-		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services">ChocolateyGui<wbr>.Common<wbr>.Services</a></li>
+		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></li>
 		<li class="header">Type</li>
-		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService">IChocolateyService</a></li>
+		<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a></li>
 		<li role="separator" class="divider"></li>
+			<li class="header">Constructors</li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/858ED711">LocalSourceViewModel<wbr>(<wbr>I<wbr>Chocolatey<wbr>Service, <wbr>IProgressService, <wbr>I<wbr>Persistence<wbr>Service, <wbr>I<wbr>Chocolatey<wbr>Gui<wbr>Cache<wbr>Service, <wbr>IConfigService, <wbr>IEventAggregator, <wbr>string, <wbr>IMapper)<wbr></a></li>
+			<li class="header">Property Members</li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/A848D626">FirstLoadIncomplete</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/8CA1AE6E">HasLoaded</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/CB749362">IsLoading</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/A7183512">Is<wbr>Show<wbr>Only<wbr>Packages<wbr>With<wbr>Update<wbr>Enabled</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/84C6D967">ListViewMode</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/B47DD279">MatchWord</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/554F391C">Packages</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/06D8395C">PackageSource</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/2B13160D">SearchQuery</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/44679155">Show<wbr>Additional<wbr>Package<wbr>Information</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/32425550">Show<wbr>Only<wbr>Packages<wbr>With<wbr>Update</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/A4C3CC1B">SortColumn</a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/2993507C">SortDescending</a></li>
 			<li class="header">Method Members</li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/B268EABA">AddSource<wbr>(ChocolateySource)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/E21F08E8">DisableSource<wbr>(string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/77431542">EnableSource<wbr>(string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/70142F80">Get<wbr>By<wbr>Version<wbr>And<wbr>Id<wbr>Async<wbr>(string, <wbr>string, <wbr>bool)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/7EF3AB0C">GetFeatures<wbr>()<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/ADFE5B2B">GetInstalledPackages<wbr>()<wbr></a></li>
-				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/C85F2442">GetOutdatedPackages<wbr>(bool, <wbr>string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/A88F2E56">GetSettings<wbr>()<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/0A2608DF">GetSources<wbr>()<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/53A6D309">InstallPackage<wbr>(string, <wbr>string, <wbr>Uri, <wbr>bool)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/EF3A7A37">IsElevated<wbr>()<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/919F5ED0">PinPackage<wbr>(string, <wbr>string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/E9660F68">RemoveSource<wbr>(string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/4089D93D">Search<wbr>(string, <wbr>Package<wbr>Search<wbr>Options)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/79D502A8">SetFeature<wbr>(ChocolateyFeature)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/4C33076B">SetSetting<wbr>(ChocolateySetting)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/D5CDACAC">UninstallPackage<wbr>(string, <wbr>string, <wbr>bool)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/97773C50">UnpinPackage<wbr>(string, <wbr>string)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/BD7BA0F0">UpdatePackage<wbr>(string, <wbr>Uri)<wbr></a></li>
-				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService/76101614">UpdateSource<wbr>(string, <wbr>ChocolateySource)<wbr></a></li>
+				<li class="selected"><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/115EBA30">Can<wbr>Check<wbr>For<wbr>Outdated<wbr>Packages<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/653040CC">CanExportAll<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/96E9F544">CanRefreshPackages<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/56751B7D">CanUpdateAll<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/10FB2A90">Check<wbr>For<wbr>Outdated<wbr>Packages<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/9EC44EB9">ExportAll<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/D7523615">Handle<wbr>(<wbr>Package<wbr>Changed<wbr>Message)<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/47F36784">OnInitialize<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/592BF134">RefreshPackages<wbr>()<wbr></a></li>
+				<li><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel/AD811508">UpdateAll<wbr>()<wbr></a></li>
 
 
                     </ul>
@@ -175,8 +180,8 @@
 
 
 <section class="content-header">
-			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService">IChocolateyService</a>.</h3>
-	<h1>GetOutdatedPackages<wbr>(bool, <wbr>string)<wbr> <small>Method</small></h1>
+			<h3><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a>.</h3>
+	<h1>Can<wbr>Check<wbr>For<wbr>Outdated<wbr>Packages<wbr>()<wbr> <small>Method</small></h1>
 </section>
 <section class="content">
 	
@@ -187,46 +192,22 @@
 				<dl class="dl-horizontal">	
 						
 						<dt>Namespace</dt>
-						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services">ChocolateyGui<wbr>.Common<wbr>.Services</a></dd>
+						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels">ChocolateyGui<wbr>.Common<wbr>.Windows<wbr>.ViewModels</a></dd>
 					
 						<dt>Containing Type</dt>
-						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Services/IChocolateyService">IChocolateyService</a></dd>		
+						<dd><a href="/ChocolateyGUI/api/ChocolateyGui.Common.Windows.ViewModels/LocalSourceViewModel">LocalSourceViewModel</a></dd>		
 					
 				</dl>
   			</div>
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>Task&lt;IReadOnlyList&lt;OutdatedPackage&gt;&gt; GetOutdatedPackages(bool includePrerelease = false, string packageName = null)</code></pre>
+	<pre><code>public bool CanCheckForOutdatedPackages()</code></pre>
 
 
 
 
 
-	<h1 id="Parameters">Parameters</h1>
-	<div class="box">
-		<div class="box-body no-padding table-responsive">
-			<table class="table table-striped table-hover three-cols">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-					<tbody><tr>
-						<td>includePrerelease</td>
-						<td>bool</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>packageName</td>
-						<td>string</td>
-						<td></td>
-					</tr>
-			</tbody></table>
-		</div>
-	</div>	
 
 	<h1 id="ReturnValue">Return Value</h1>
 	<div class="box">
@@ -239,7 +220,7 @@
 					</tr>
 				</thead>
 				<tbody><tr>
-					<td>Task<wbr>&lt;IReadOnlyList<wbr>&lt;<a href="/ChocolateyGUI/api/ChocolateyGui.Common.Models/OutdatedPackage">OutdatedPackage</a>&gt;<wbr>&gt;<wbr></td>
+					<td>bool</td>
 					<td></td>
 				</tr>
 			</tbody></table>
