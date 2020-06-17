@@ -1,21 +1,19 @@
-﻿<!DOCTYPE html>
-<html>
-    <head>
+﻿<!DOCTYPE html><html><head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <meta name="description" />
-        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description">
+        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/ChocolateyGUI/assets/img/favicon.ico" type="image/x-icon">
         <title>Chocolatey GUI - Install Chocolatey GUI</title>
         <link href="/ChocolateyGUI/assets/css/highlight.css" rel="stylesheet">
-        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet" />
-        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
+        <link href="/ChocolateyGUI/assets/css/theme/theme.css" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
         <link href="/ChocolateyGUI/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet" />
+        <link href="/ChocolateyGUI/assets/css/override.css" rel="stylesheet">
         <script src="/ChocolateyGUI/assets/js/jquery-2.2.3.min.js"></script>
         <script src="/ChocolateyGUI/assets/js/bootstrap.min.js"></script>        
         <script src="/ChocolateyGUI/assets/js/app.min.js"></script>         
@@ -77,7 +75,10 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
         <div><p><a href="https://github.com/chocolatey/ChocolateyGUI/tree/develop/docs/input/docs/installation/chocolatey_gui.md"><i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Content</a></p></div>
-    <div id="infobar-headings"></div>
+    <div id="infobar-headings"><h6>On This Page</h6><p><a href="#upgrading-chocolatey-gui">Upgrading Chocolatey GUI</a></p>
+<p><a href="#installing-beta-versions-of-chocolatey-gui">Installing Beta Versions of Chocolatey GUI</a></p>
+<hr class="infobar-hidden">
+</div>
 
                 </section>
                 <section class="sidebar">    
@@ -93,6 +94,15 @@
                         
                 <li class="selected"><a href="/ChocolateyGUI/docs/installation/chocolatey_gui">Install Chocolatey GUI</a></li>
                 <li><a href="/ChocolateyGUI/docs/installation/chocolatey_gui_extension">Install Chocolatey GUI Extension</a></li>
+
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="/ChocolateyGUI/docs/uninstallation">Uninstallation</a> <a href="#" class="expand"></a>
+                    <ul class="treeview-menu">
+                        
+                <li><a href="/ChocolateyGUI/docs/uninstallation/chocolatey_gui">Uninstall Chocolatey GUI</a></li>
+                <li><a href="/ChocolateyGUI/docs/uninstallation/chocolatey_gui_extension">Uninstall Chocolatey GUI Extension</a></li>
 
                     </ul>
                 </li>
@@ -231,7 +241,22 @@
 			<h1>Install Chocolatey GUI</h1>
 		</section>
 	<section class="content">
-		<p>Put stuff here...</p>
+		<p>The easiest way to install Chocolatey GUI is to use Chocolatey.  Use the
+following command to install the latest version of Chocolatey GUI:</p>
+<pre><code class="language-powershell">choco install chocolateygui
+</code></pre>
+<h2 id="upgrading-chocolatey-gui">Upgrading Chocolatey GUI</h2>
+<p>If you already have Chocolatey GUI installed, you can upgrade to the latest
+version using the following command:</p>
+<pre><code class="language-powershell">choco upgrade chocolateygui
+</code></pre>
+<h2 id="installing-beta-versions-of-chocolatey-gui">Installing Beta Versions of Chocolatey GUI</h2>
+<p>Each time a commit is made into the Chocolatey GUI repository, a build is
+performed, and the output is pushed to the Chocolatey GUI MyGet feed.  If you
+are interested in using the very latest version of Chocolatey GUI, you can use
+the following command to install it:</p>
+<pre><code class="language-powershell">choco upgrade chocolateygui --pre --source="'https://myget.org/f/chocolateygui
+</code></pre>
 
 	</section>
                 
@@ -256,7 +281,7 @@
         room: 'chocolatey/ChocolateyGUI'
     };
 </script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="" defer=""></script>
         <script>           
             // Close the sidebar if we select an anchor link
             $(".main-sidebar a[href^='#']:not('.expand')").click(function(){
@@ -326,5 +351,5 @@
                 }, 500);
             });
         </script>
-    </body>
-</html>
+    
+</body></html>
